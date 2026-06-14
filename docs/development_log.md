@@ -6,3 +6,4 @@
 - Added `index.html`, `styles.css`, and project README.
 - Content is based on the local `cv-brain` OKF bundle.
 - Connected the project to GitHub and Vercel for public deployment.
+- Added custom domains `hansbroerse.nl` and `www.hansbroerse.nl` in Vercel and updated GoDaddy DNS records.
