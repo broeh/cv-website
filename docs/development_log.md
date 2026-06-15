@@ -2,6 +2,7 @@
 
 ## 2026-06-15
 
+- Visual polish pass on `index.html` and `styles.css`: monogram avatar in the hero, gradient headline, accent bars before section titles, timeline dots, hover lift on cards and tags, primary gradient call-to-action, a staggered entrance animation (with reduced-motion fallback), a footer, and a clean print stylesheet. No content or structure changes beyond the avatar and footer.
 - Translated the live CV page (`index.html`) from English to Dutch: visible content, page title, meta description, Open Graph/Twitter metadata, and JSON-LD Person fields. Set `lang="nl"` and added `og:locale=nl_NL`.
 - Used the correct Dutch institution name "Hogeschool van Amsterdam" for the former application-support role.
 - Backed up the previous English `index.html` under `versions/` before editing.
