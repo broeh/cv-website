@@ -1,5 +1,11 @@
 # Development Log
 
+## 2026-06-15
+
+- Updated README with the live site URL, GitHub repo, Vercel hosting setup, GoDaddy DNS records, and project file overview.
+- Rechecked Vercel deployment state: latest deployment `dpl_Datd7ZsekWJRTwghwZUDSJecZimi` is `READY` for commit `41ba11b8f23a828b89d1cd9216254b87684774ad`.
+- Rechecked Vercel domain configuration: `hansbroerse.nl` is configured by A record and `www.hansbroerse.nl` is configured by CNAME, both not misconfigured.
+
 ## 2026-06-14
 
 - Created the first static CV/profile website.
