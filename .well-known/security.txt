@@ -1,0 +1,4 @@
+Contact: mailto:hansb1980@gmail.com
+Expires: 2027-06-15T00:00:00Z
+Preferred-Languages: en, nl
+Canonical: https://hansbroerse.nl/.well-known/security.txt
