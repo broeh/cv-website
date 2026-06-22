@@ -1,5 +1,13 @@
 # Development Log
 
+## 2026-06-22
+
+- Synced `index.html` content with the latest `cv-brain` work-stories information: richer Klaverblad Scrum Master details, Q-Delft / Netcompany lintjes.nl work, Ahold innovation/Product Owner highlights, AH Belgium Scrum origin, offshore testing, early IT-support roles, education, and work style.
+- Updated CV metadata and JSON-LD keywords to match the refined positioning.
+- Added hero fact cards, a "Wat ik meebreng" highlights section, expanded selected-work cards, education, and work-style content.
+- Polished `styles.css` after screenshot reviews: balanced the hero, added a subtle CV watermark, improved panel depth, added card accent bars, date pills, richer project-card backgrounds, and stronger section accents.
+- Captured and reviewed screenshots at `screenshots/cv-pass-1.png`, `screenshots/cv-pass-2.png`, and `screenshots/cv-final.png`.
+
 ## 2026-06-15
 
 - Visual polish pass on `index.html` and `styles.css`: monogram avatar in the hero, gradient headline, accent bars before section titles, timeline dots, hover lift on cards and tags, primary gradient call-to-action, a staggered entrance animation (with reduced-motion fallback), a footer, and a clean print stylesheet. No content or structure changes beyond the avatar and footer.
