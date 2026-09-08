@@ -1,5 +1,24 @@
 # Development Log
 
+## 2026-09-08 (tweede ronde)
+
+Doorgevoerd op basis van vier onafhankelijke reviews (Claude, Codex, Gemini, Muse) met als doel een volwassener, zakelijker uitstraling voor de interne sollicitatie.
+
+- Hero herzien: het gedraaide memoblok met plakband-effect en de decoratieve code "HB / 01" verwijderd, evenals de 1-2-3 routekaart. Vervangen door een portretfoto en een feitenstrip met vijf controleerbare gegevens.
+- Portretfoto toegevoegd (`assets/portret.jpg`), bijgesneden en gedempt in verzadiging zodat de achtergrond niet met het papierpalet vloekt.
+- Slogankoppen vervangen door vakkoppen: "Daar heb ik aan gewerkt" werd "Geselecteerd werk", "Mijn route tot nu toe" werd "Loopbaan", "Verder praten? Lijkt me goed" werd "Neem gerust contact op". De opening "Ik ben Hans" is vervangen door een feitelijke propositie.
+- Certificaatafbeeldingen gerepareerd: alle drie de Credly-bestanden bevatten een ingebakken Credly-icoon en een dekkend vierkant in de linkerbovenhoek. Via een cirkelmasker teruggebracht tot schone badges, alle vier genormaliseerd op 512 pixels. Originelen bewaard onder `versions/assets-pre-2026-09-08/`.
+- Certificeringen herbalanceerd: het uitvergrote PSM AI Essentials-blok is vervangen door een gelijkwaardige rij van vier kaarten, met een verwijzing naar de publieke certificeringslijst van Scrum.org voor verificatie. Alle badges hebben nu beschrijvende alt-teksten.
+- Inhoud aangescherpt op de vacature AI Adoptie Consultant: facilitatie en workshops expliciet benoemd, ondernemingsraad en Jira-assetmanagement als organisatiebreed netwerk, eigen praktijkgebruik van generatieve AI, en een eerlijke regel over ADKAR en AI-assistenten als leerpunten.
+- Per geselecteerd werk een blok Resultaat en Relevantie toegevoegd in plaats van alleen "Wat ik meeneem".
+- Loopbaan verzakelijkt: contractvormen bij de Ahold-klantperiode expliciet gemaakt met het label "Klantperiode", "De eerste jaren in IT" hernoemd naar "Helpdesk- en supportfuncties", HAVO verwijderd.
+- Vier profielpijlers in plaats van drie, waaronder de nieuwe pijler "Faciliteren en uitleggen".
+- Rustiger vlakverdeling: het mintgroene motivatieblok is een gewone papiersectie geworden, waardoor de pagina nog twee donkere secties heeft in plaats van vier kleurwissels. Oranje verdiept van #bd4020 naar #ad3a1c en muted van #526067 naar #4f5d64, waardoor alle tekstcombinaties nu AA halen voor normale tekst. De gedraaide onderstreping in de H1 is rechtgetrokken en de H1 is een maat kleiner.
+- Navigatie uitgebreid met "Werk"; "Ervaring" hernoemd naar "Loopbaan". De lege `href="#"` verwijzingen wijzen nu naar `#top`. De footer staat buiten `<main>`. De carrièrestrip is een echte lijst.
+- Print-CSS herzien: de harde `break-before: page` regels zijn vervangen door `break-after: avoid` op koppen, waardoor de lege vijfde pagina verdween. Resultaat is vier goed gevulde A4-pagina's. Contactgegevens staan nu ook op pagina 1, externe links drukken hun URL af en de vroegere `h2 br`-onderdrukking die woorden aan elkaar plakte is verwijderd.
+- Metadata: `og:image` toegevoegd met een eigen gegenereerde deelafbeelding, Twitter-card naar `summary_large_image`, JSON-LD aangevuld met portret, `alumniOf`, `knowsLanguage` en PSM I. `sitemap.xml` bijgewerkt naar 2026-09-08.
+- Geverifieerd met Chromium op 320, 360, 390, 768, 1024, 1280 en 1440 pixels: geen horizontale overflow op enige breedte (na een navigatiefix voor 320 pixels). Alle ankers verwijzen naar bestaande doelen, precies een H1, alle afbeeldingen hebben alt-tekst, alle aria-labelledby verwijzingen kloppen. Contrastverhoudingen herberekend: alle combinaties halen minimaal 5,1:1. Print-PDF gerenderd en pagina voor pagina beoordeeld.
+
 ## 2026-09-08
 
 - Rebuilt the visual design with an editorial layout, warm paper, dark ink, orange accents, a career-route illustration and self-hosted Bricolage Grotesque / DM Sans fonts.

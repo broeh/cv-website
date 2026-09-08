@@ -34,9 +34,12 @@ The site is intentionally plain HTML/CSS. Content is based on the local `cv-brai
 
 ## Design and editing
 
-The September 2026 design uses warm paper, dark ink, orange accents and self-hosted typography. Sections cover profile, certifications, selected work, AI-adoption direction, career history and contact. Edit the semantic HTML directly; responsive and print layouts are in `styles.css`.
+The September 2026 design uses warm paper, dark ink, orange accents and self-hosted typography. Sections cover profile, selected work, certifications, AI-adoption direction, career history and contact, in that order. A portrait and a five-item facts strip open the page. Edit the semantic HTML directly; responsive and print layouts are in `styles.css`.
 
-- `assets/` - local certification badges, fonts, font licenses and favicon
+The design was deliberately made more formal in a second September 2026 pass: no rotated elements, no decorative tape effect, factual section headings rather than slogans, and a single accent colour. Keep it that way when editing.
+
+- `assets/` - portrait, share image, certification badges, fonts, font licenses and favicon
+- `versions/` - originals of replaced assets
 - `docs/content_sources.md` - factual scope, source notes and asset attribution
 
 Preview locally with `python -m http.server 8765 --bind 127.0.0.1`. Check desktop and mobile layouts, anchor links, keyboard access, loaded assets and print preview before publishing. The print button opens the browser print dialog, where visitors can save a PDF.
