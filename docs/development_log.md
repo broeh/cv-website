@@ -1,5 +1,14 @@
 # Development Log
 
+## 2026-09-08
+
+- Rebuilt the visual design with an editorial layout, warm paper, dark ink, orange accents, a career-route illustration and self-hosted Bricolage Grotesque / DM Sans fonts.
+- Rewrote the profile around demonstrated team coaching, introducing ways of working, business analysis and innovation. Connected these strengths to the Klaverblad AI Adoptie Consultant vacancy while describing AI adoption as a next step, not past experience.
+- Featured September 2026 PSM AI Essentials in the hero and certification section. Added PSM II and PSPO I from July 2026 and dated PSM I. Downloaded qualification badge artwork and retained earlier CSPO, TMAP and ITIL credentials.
+- Added anchor navigation, keyboard skip link, visible focus, reduced-motion support, a print/PDF button and A4 print styling. The print version presents the CV without the separate vacancy-motivation section.
+- Updated SEO/social metadata, Person credentials, favicon, README and `docs/content_sources.md`; included font licenses and badge attribution. Kept plain HTML/CSS with no build tooling or third-party runtime requests.
+- Verified with Chromium/Playwright at 320, 390, 768, 1024 and 1440 pixels: no horizontal overflow, all images loaded, all local anchor targets present, one H1, valid JSON-LD and no page/request errors. Axe WCAG A/AA checks at 390 and 1440 pixels reported zero violations after contrast fixes. Checked keyboard skip navigation, navigation links, print handler and reduced-motion behavior. Reviewed desktop/mobile screenshots and the four-page A4 print output. `git diff --check` passed.
+
 ## 2026-06-22
 
 - Synced `index.html` content with the latest `cv-brain` work-stories information: richer Klaverblad Scrum Master details, Q-Delft / Netcompany lintjes.nl work, Ahold innovation/Product Owner highlights, AH Belgium Scrum origin, offshore testing, early IT-support roles, education, and work style.

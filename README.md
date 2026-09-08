@@ -31,3 +31,12 @@ Pushing to `main` triggers a Vercel deployment.
 ## Notes
 
 The site is intentionally plain HTML/CSS. Content is based on the local `cv-brain` OKF bundle.
+
+## Design and editing
+
+The September 2026 design uses warm paper, dark ink, orange accents and self-hosted typography. Sections cover profile, certifications, selected work, AI-adoption direction, career history and contact. Edit the semantic HTML directly; responsive and print layouts are in `styles.css`.
+
+- `assets/` - local certification badges, fonts, font licenses and favicon
+- `docs/content_sources.md` - factual scope, source notes and asset attribution
+
+Preview locally with `python -m http.server 8765 --bind 127.0.0.1`. Check desktop and mobile layouts, anchor links, keyboard access, loaded assets and print preview before publishing. The print button opens the browser print dialog, where visitors can save a PDF.
