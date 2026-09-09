@@ -30,16 +30,11 @@ Bewust niet overgenomen uit het concept-CV:
 
 - De positie van de ElevenLabs-stem in de Nederlandse lijst en het aantal gegenereerde credits. Dat staat wel in het sollicitatiedocument, maar dit is een openbare site en de stem is van iemand anders. De cijfers maken die persoon vindbaar. De site noemt alleen dat Hans professionele Nederlandse stemmen voor een AI-stemplatform produceerde.
 
-Kleuraccent, latere wijziging op dezelfde dag:
+Kleuraccent, geprobeerd en teruggedraaid op dezelfde dag:
 
-- Het oranje accent is vervangen door het merkgroen van Klaverblad Verzekeringen, opgehaald uit hun eigen `main.css`. `#035f1b` is daar de primaire merkkleur, 152 keer gebruikt voor zowel tekst als achtergronden; `#2a7c27` en `#004312` zijn de secundaire tinten.
-- De CSS-variabele `--orange` is hernoemd naar `--accent`, elf gebruiken. Een variabele die `orange` heet en groen bevat laat de volgende bewerking struikelen.
-- De hardgecodeerde lichte zalmkleur `#f0a184` op de donkere secties, vijf gebruiken, is vervangen door een nieuwe variabele `--accent-light: #82c493`. Die is afgeleid op precies de merk-hue van 136 graden en gekozen op contrast, zodat de verhouding tegen de donkere inkt gelijk blijft aan wat er stond.
-- Contrast gecontroleerd. `#035f1b` haalt 7,06:1 op papier en 6,57:1 op het paneel, tegen 5,52:1 en 5,14:1 voor het oude oranje. `#82c493` haalt 7,07:1 op de donkere inkt, tegen 6,98:1 voor de oude zalmkleur. Alle combinaties blijven ruim boven WCAG AA.
-- `#2a7c27` is bewust niet gebruikt: dat haalt 4,35:1 op het paneel en zakt daarmee onder AA voor normale tekst.
-- Het oranje stipje in `assets/favicon.svg` is meegegaan naar `#82c493`.
-- `assets/og-image.png` opnieuw gegenereerd met het merkgroen voor de eyebrow en het streepje.
-- Opgemerkt voor Hans: dit is de huisstijlkleur van zijn werkgever op een persoonlijke site. Dat kan als affiliatie of goedkeuring gelezen worden. Bewuste keuze van Hans.
+- Het oranje accent is tijdelijk vervangen door het merkgroen van Klaverblad Verzekeringen (`#035f1b` uit hun eigen `main.css`, met een afgeleide lichte tint `#82c493` voor de donkere secties). Hans vond het resultaat minder mooi en vond dat het rood beter opviel, dus die commit is teruggedraaid.
+- Het oranje `#ad3a1c`, de lichte zalmkleur `#f0a184` op de donkere secties en het oranje stipje in de favicon staan weer zoals ze waren. De variabele heet weer `--orange`.
+- Bewaard voor als het ooit weer opkomt: Klaverblads primaire merkgroen is `#035f1b`, met `#2a7c27` en `#004312` als secundaire tinten. Het groen haalde een beter contrast dan het oranje (7,06:1 tegen 5,52:1 op papier), dus de terugdraai is een smaakkeuze, geen toegankelijkheidskwestie. `#2a7c27` is sowieso ongeschikt: dat zakt naar 4,35:1 op de panelen.
 
 Verificatie: lokaal geserveerd op 127.0.0.1:8765 en met Chromium gerenderd op 1440 en 390 pixels breed. Volledige pagina beoordeeld op beide breedtes, HTML-tags gecontroleerd op balans, alle ankers verwijzen naar bestaande doelen, geen resterende verwijzingen naar de oude feiten.
 

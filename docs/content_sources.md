@@ -85,9 +85,3 @@ Openstaand punt uit de vorige ronde dat blijft staan: het aantal SAFe-workshops 
 ## Portret, herziening 9 september 2026
 
 `assets/portret.jpg` is opnieuw gemaakt uit een nieuwe professionele portretfoto van 9 september 2026, met dezelfde kadrering en dezelfde gedempte verzadiging als de vorige versie. De achtergrondtint is gemeten en gematcht (hue 94, verzadiging 0,20 tegen 0,38 in het origineel) zodat de foto niet met het papierpalet vloekt. `assets/og-image.png` is opnieuw gegenereerd met dezelfde posities, kleuren en lettertypen als de vorige versie; alleen de foto en de ondertitelregel zijn veranderd. De vervangen bestanden en de bronfoto staan onder `versions/assets-pre-2026-09-09/`.
-
-## Kleuraccent, 9 september 2026
-
-Het accent is van oranje naar het merkgroen van Klaverblad Verzekeringen gegaan, op verzoek van Hans. De kleur is overgenomen uit de stylesheet van <https://www.klaverblad.nl/>, waar `#035f1b` de primaire merkkleur is. De lichte variant `#82c493` voor de donkere secties komt niet van Klaverblad maar is zelf afgeleid op dezelfde hue en gekozen op contrast.
-
-Er is geen logo, woordmerk of ander beeldmerk van Klaverblad overgenomen; alleen de kleurwaarde. De badge-artwork van Scrum.org is ongewijzigd.
