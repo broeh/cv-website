@@ -4,6 +4,7 @@
 
 - `assets/portret.jpg` vervangen door de nieuwe foto `Profiel Photo v2.png` uit `~/Downloads/`.
 - Foto omgezet naar JPEG (760×760, gecentreerde uitsnede, progressief, 90% kwaliteit), waardoor de bestandsgrootte afneemt van 1,58 MB (PNG) naar ~81 KB (JPEG). Dit bespaart 95% laadgewicht en bevordert snelle weergave op mobiel en desktop (LCP/FCP) zonder kwaliteitsverlies.
+- Groenfilter hersteld: de felgroene bokeh-achtergrond selectief getemperd in verzadiging (-55%) en helderheid (-25%), zodat het groen zacht en natuurlijk aansluit bij het papierpalet (`#f5f2e9`) zonder dat de warme huidtinten flets worden.
 - `assets/og-image.png` bijgewerkt met de nieuwe foto in de cirkelvormige uitsnede (390×390 px) met vloeiende antialiasing, zodat link previews (LinkedIn, WhatsApp e.d.) gelijk lopen met de site.
 - Vorige versies en bronbestand gearchiveerd in `versions/assets-pre-v2-replace/`.
 - Verificatie: lokaal gerenderd en gecontroleerd via Chromium headless screenshots op desktop (1440px) en mobiel (390px).
