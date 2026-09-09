@@ -1,5 +1,13 @@
 # Development Log
 
+## 2026-09-09 (profielfoto v2)
+
+- `assets/portret.jpg` vervangen door de nieuwe foto `Profiel Photo v2.png` uit `~/Downloads/`.
+- Foto omgezet naar JPEG (760×760, gecentreerde uitsnede, progressief, 90% kwaliteit), waardoor de bestandsgrootte afneemt van 1,58 MB (PNG) naar ~81 KB (JPEG). Dit bespaart 95% laadgewicht en bevordert snelle weergave op mobiel en desktop (LCP/FCP) zonder kwaliteitsverlies.
+- `assets/og-image.png` bijgewerkt met de nieuwe foto in de cirkelvormige uitsnede (390×390 px) met vloeiende antialiasing, zodat link previews (LinkedIn, WhatsApp e.d.) gelijk lopen met de site.
+- Vorige versies en bronbestand gearchiveerd in `versions/assets-pre-v2-replace/`.
+- Verificatie: lokaal gerenderd en gecontroleerd via Chromium headless screenshots op desktop (1440px) en mobiel (390px).
+
 ## 2026-09-09
 
 Tekstuele synchronisatie met het concept-CV (versie 3) uit `~/Projects/Sollicitatie/concept_cv.md`, dat is opgebouwd uit een interview en aangescherpt met vier onafhankelijke AI-reviews. Het ontwerp is bewust ongewijzigd gebleven: geen wijzigingen in `styles.css`, geen nieuwe componenten, alleen bestaande patronen en teksten.
