@@ -1,5 +1,37 @@
 # Development Log
 
+## 2026-09-09
+
+Tekstuele synchronisatie met het concept-CV (versie 3) uit `~/Projects/Sollicitatie/concept_cv.md`, dat is opgebouwd uit een interview en aangescherpt met vier onafhankelijke AI-reviews. Het ontwerp is bewust ongewijzigd gebleven: geen wijzigingen in `styles.css`, geen nieuwe componenten, alleen bestaande patronen en teksten.
+
+Feitelijke correcties:
+
+- "Sinds 2014 in Agile-rollen" is overal "sinds 2011" geworden. Hans was in 2011 al Scrum Master bij Albert Heijn; de oude formulering verkocht hem drie jaar te kort op precies de ervaring die de doelfunctie vraagt.
+- "Ruim 25 jaar" in de profielkop is vervangen door "Sinds 1998", omdat de loopbaan in 1998 begint en dat inmiddels achtentwintig jaar is.
+- "Meerdere softwareontwikkelingsteams" is overal "vijf teams" geworden, door Hans bevestigd op 9 september 2026. De feitenstrip toont nu "7 jaar · 5 teams".
+
+Inhoudelijke aanvullingen:
+
+- Klaverblad-werkitem herschreven: het lage vertrouwen in Scrum bij binnenkomst, de uitrol over vijf teams, de Jira-werkwijze voor de softwareontwikkelteams, de SAFe-workshops en team Data met dashboards voor de business.
+- Q-Delft-werkitem aangevuld met de twee cijfers uit het CV uit 2019: demovoorbereiding van bijna twee dagen naar een paar uur voor een medewerker, en het team dat naar ruim twintig mensen groeide. Het resultaat noemt nu de ontwikkelsnelheid en de productiegang in plaats van een algemene formulering.
+- Vierde werkitem toegevoegd voor project WINK bij Albert Heijn (2017-2018): wekelijkse workshops met winkelmedewerkers en wireframe-proeven in de winkel. Dit is het sterkste bewijs voor workshops met eindgebruikers en draagvlak opbouwen, en ontbrak op de site.
+- Werkitems staan nu omgekeerd chronologisch. Met vier items was de oude volgorde (2019, 2014, 2018, 2017) niet meer te volgen.
+- Sectie Richting herschreven: eigen server, programmeren met AI-assistenten, lokale modellen en lokale spraaksynthese; het produceren van professionele Nederlandse stemmen voor een AI-stemplatform; en Copilot binnen de kaders die op het werk gelden, expliciet gekoppeld aan waarom een verzekeraar niet alles openzet.
+- De vermelding van Home Assistant is verwijderd. Hans gebruikt dat juist zo min mogelijk en bouwt liever zelf.
+- "Ik verdiep me in ADKAR" is vervangen door "bekend met ADKAR, zonder daarin getraind te zijn". De oude formulering suggereerde een lopend leertraject dat er niet is.
+
+Beelden:
+
+- `assets/portret.jpg` vervangen door een uitsnede uit de nieuwe professionele portretfoto van 9 september 2026. Dezelfde kadrering en dezelfde gedempte verzadiging als de vorige versie, gemeten en gematcht op achtergrondtint (hue 94, verzadiging 0,20) zodat de foto niet met het papierpalet vloekt.
+- `assets/og-image.png` opnieuw gegenereerd met dezelfde opmaak, posities en kleuren als de vorige versie, met de nieuwe foto en met "25 jaar IT" vervangen door "Sinds 1998 in IT".
+- De vervangen bestanden en de originele bronfoto staan onder `versions/assets-pre-2026-09-09/`.
+
+Bewust niet overgenomen uit het concept-CV:
+
+- De positie van de ElevenLabs-stem in de Nederlandse lijst en het aantal gegenereerde credits. Dat staat wel in het sollicitatiedocument, maar dit is een openbare site en de stem is van iemand anders. De cijfers maken die persoon vindbaar. De site noemt alleen dat Hans professionele Nederlandse stemmen voor een AI-stemplatform produceerde.
+
+Verificatie: lokaal geserveerd op 127.0.0.1:8765 en met Chromium gerenderd op 1440 en 390 pixels breed. Volledige pagina beoordeeld op beide breedtes, HTML-tags gecontroleerd op balans, alle ankers verwijzen naar bestaande doelen, geen resterende verwijzingen naar de oude feiten.
+
 ## 2026-09-08 (tweede ronde)
 
 Doorgevoerd op basis van vier onafhankelijke reviews (Claude, Codex, Gemini, Muse) met als doel een volwassener, zakelijker uitstraling voor de interne sollicitatie.

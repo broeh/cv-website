@@ -57,3 +57,31 @@ De drie Credly-bestanden bevatten oorspronkelijk een ingebakken Credly-interface
 ## Portret en deelafbeelding
 
 `assets/portret.jpg` is bijgesneden uit een eigen professionele portretfoto en gedempt in verzadiging, zodat de achtergrond niet botst met het papierpalet. `assets/og-image.png` is lokaal gegenereerd uit dat portret met de eigen huisstijlkleuren en lettertypen, en dient als deelafbeelding voor LinkedIn, Teams en WhatsApp.
+
+## Herziening 9 september 2026
+
+De pagina is tekstueel gelijkgetrokken met `concept_cv.md` versie 3 uit `~/Projects/Sollicitatie`, opgesteld uit een interview met Hans en aangescherpt met vier onafhankelijke AI-reviews. Het ontwerp is niet gewijzigd.
+
+Nieuwe of gecorrigeerde feiten en hun onderbouwing:
+
+- "Agile-rollen sinds 2011" vervangt "sinds 2014". Het CV uit 2019 en de cv-brain plaatsen de eerste Scrum Master-rol bij Albert Heijn in 2011; 2014 was de start van het Product Ownership bij Ahold Innovation.
+- "Sinds 1998" vervangt "ruim 25 jaar" in de profielkop. De loopbaan begint in 1998, dus achtentwintig jaar.
+- "Vijf teams" vervangt "meerdere teams". Bevestigd door Hans op 9 september 2026: vijf teams opgezet en begeleid in zeven jaar bij Klaverblad. Het aantal teams waarover de Jira-werkwijze is uitgezet is een ander, waarschijnlijk hoger getal en staat daarom zonder cijfer.
+- Team AOV Claims en team Data zijn toegevoegd als de teams van dit moment. Het team heet op papier Data en AI, maar is in de praktijk het Data team; de site houdt "team Data" aan.
+- Het lage vertrouwen in Scrum bij binnenkomst is toegevoegd, zonder de externe partij te noemen die daaraan bijdroeg. Dat detail staat wel in het sollicitatiedocument, maar leest publiek als afgeven op een voorganger.
+- De SAFe-invoering is toegevoegd als workshops geven en meebouwen. Dat het programma niet is doorgezet, staat niet op de site; het voegt publiek niets toe.
+- De twee Q-Delft-cijfers komen letterlijk uit het CV uit 2019: demovoorbereiding van bijna twee dagen met het hele team naar een paar uur voor een medewerker, en een team dat naar ruim twintig personen groeide. De productiegang van de eerste versie is door Hans bevestigd; het CV uit 2019 schreef die nog in de toekomende tijd.
+- Het WINK-werkitem (2017-2018) komt uit het CV uit 2019: nieuw scrumteam, wekelijkse workshops met key-medewerkers uit de Albert Heijn-winkels, wireframe-proeven in winkels, en de kanteling weg van top-down bedachte werkwijzen.
+- De AI-praktijk is uitgebreid met eigen server, programmeren met AI-assistenten, lokale modellen en lokale spraaksynthese, en met het produceren van professionele Nederlandse stemmen voor een AI-stemplatform. Home Assistant is verwijderd: Hans gebruikt dat juist zo min mogelijk.
+- Copilot binnen de geldende kaders is toegevoegd, met de redenering waarom een verzekeraar niet alles openzet. Dat dekt de vacature-eis over verantwoord en compliant AI-gebruik af.
+- ADKAR is teruggebracht van "ik verdiep me erin" naar "bekend mee, zonder daarin getraind te zijn".
+
+Bewust niet gepubliceerd:
+
+- De positie van de stem in de Nederlandse ElevenLabs-lijst en het aantal gegenereerde credits. Die staan in het sollicitatiedocument voor HR, maar dit is een openbare site en de stem is van iemand anders. Met de positie erbij is die persoon te vinden.
+
+Openstaand punt uit de vorige ronde dat blijft staan: het aantal SAFe-workshops en het aantal deelnemers is nog niet bekend, dus workshops staan zonder aantal.
+
+## Portret, herziening 9 september 2026
+
+`assets/portret.jpg` is opnieuw gemaakt uit een nieuwe professionele portretfoto van 9 september 2026, met dezelfde kadrering en dezelfde gedempte verzadiging als de vorige versie. De achtergrondtint is gemeten en gematcht (hue 94, verzadiging 0,20 tegen 0,38 in het origineel) zodat de foto niet met het papierpalet vloekt. `assets/og-image.png` is opnieuw gegenereerd met dezelfde posities, kleuren en lettertypen als de vorige versie; alleen de foto en de ondertitelregel zijn veranderd. De vervangen bestanden en de bronfoto staan onder `versions/assets-pre-2026-09-09/`.
