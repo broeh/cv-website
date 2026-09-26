@@ -85,3 +85,22 @@ Openstaand punt uit de vorige ronde dat blijft staan: het aantal SAFe-workshops 
 ## Portret, herziening 9 september 2026
 
 `assets/portret.jpg` is opnieuw gemaakt uit een nieuwe professionele portretfoto van 9 september 2026, met dezelfde kadrering en dezelfde gedempte verzadiging als de vorige versie. De achtergrondtint is gemeten en gematcht (hue 94, verzadiging 0,20 tegen 0,38 in het origineel) zodat de foto niet met het papierpalet vloekt. `assets/og-image.png` is opnieuw gegenereerd met dezelfde posities, kleuren en lettertypen als de vorige versie; alleen de foto en de ondertitelregel zijn veranderd. De vervangen bestanden en de bronfoto staan onder `versions/assets-pre-2026-09-09/`.
+
+## Varianten Chapter Lead, 26 september 2026
+
+De drie ontwerpen in `varianten/` gebruiken dezelfde feitenbasis als de live site, aangevuld volgens `~/Projects/Sollicitatie/plan_cv_chapter_lead.md` en het concept-CV versie 3. Nieuwe of anders geformuleerde claims en hun bron:
+
+- Selectie en sollicitatiegesprekken: Hans' eigen aantekening bij de match-analyse ("als Scrum Master vaak gedaan"). Geformuleerd als "vaak betrokken bij", zonder werkgever, omdat die nog niet is bevestigd.
+- Q-Delft, ruim twintig mensen en personele wisselingen voor een betere balans tussen senior, medior en junior: concept-CV versie 3, afkomstig uit het CV van 2019.
+- Nieuwe collega's inwerken in de Jira-werkwijze: concept-CV versie 3, Klaverblad-blok.
+- Het team bij elkaar houden tijdens een systeemtransitie: concept-CV versie 3. Op de site bewust zonder de naam van het pakket of het programma.
+- Presentaties aan directie en ondernemingsraad, rapportage aan de stuurgroep: concept-CV versie 3.
+- Zomerkamp voor tieners: concept-CV versie 3, nevenactiviteiten.
+- "Zes IT-rollen": helpdesk en support, applicatiebeheer, testcoördinator, informatieanalist, Product Owner en Scrum Master. Er staan geen jaartallen bij de tussenliggende rollen, omdat de oude CV's elkaar daarover tegenspreken.
+- Het citaat "Mensen in beweging krijgen en laten groeien leer je niet uit een handboek" komt uit de conceptbrief voor Chapter Lead.
+
+Niet geclaimd: lijnverantwoordelijkheid, de HR-cyclus, getrokken gildes of vakgroepen, en de term "strategische personeelsplanning".
+
+Lettertypen in `varianten/fonts/`, alle onder de SIL Open Font License en gedownload van Fontsource 5.3.0 via jsDelivr: Anton, Lato (400, 400 cursief, 700, 900), Fraunces (variabel, alle assen), Geist en Geist Mono (variabel). De licentieteksten staan ernaast.
+
+`varianten/assets/portret-vrij.webp` is een eigen bewerking van de portretfoto uit `versions/assets-pre-v2-replace/`. `preview-*.webp` zijn screenshots van de varianten voor de keuzepagina.

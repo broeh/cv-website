@@ -1,5 +1,18 @@
 # Development Log
 
+## 2026-09-26 (drie varianten voor Chapter Lead)
+
+- Drie nieuwe ontwerpen van de site gebouwd onder `varianten/`, gericht op de interne vacature Chapter Lead bij Klaverblad. De live site `index.html` is niet gewijzigd. Keuzepagina: `varianten/index.html`.
+  - **A, Klaver** (`varianten/a-klaver/`): dicht bij de huisstijl van Klaverblad. Donkergroen `#004312`/`#035f1b`, Anton voor koppen en Lato voor tekst, zoals werkenbijklaverblad.nl en klaverblad.nl. Een klavertje vier als motief: de vier leiderschapsprincipes zijn de vier bladen, met een klaver die oplicht bij het blad waar je met de muis op staat.
+  - **B, Hoofdstukken** (`varianten/b-hoofdstukken/`): redactioneel magazine. De loopbaan in zeven hoofdstukken, als knipoog naar Chapter Lead. Fraunces en DM Sans, bordeauxrood `#89001d` en groen uit het Klaverblad-logo. Meelopende inhoudsopgave, tekst die oplicht tijdens het lezen, een vraag-en-antwoordhoofdstuk en een epiloog "Wordt vervolgd."
+  - **C, Chapter** (`varianten/c-chapter/`): donker en technisch. Geist en Geist Mono. De hero is een canvas-matrix waarin mensen teams vormen en een vakgebied dwars door alle teams oplicht; met de muis kies je zelf een vakgebied. Verder bento-cijfers, spotlight-kaarten en werkkaarten die over elkaar schuiven.
+- Alle drie gebruiken dezelfde teksten en feiten, opgebouwd volgens `~/Projects/Sollicitatie/plan_cv_chapter_lead.md`: nadruk op mensen en vakmanschap, geen claim op lijnverantwoordelijkheid of de HR-cyclus, geen functietitel uit de vacature als eigen titel. Nieuw ten opzichte van de live site: de vier principes uit het plan, een sectie die elke vacature-eis koppelt aan een voorbeeld, Q-Delft als bewijs voor teamsamenstelling (ruim twintig mensen, balans senior/medior/junior), selectie en sollicitatiegesprekken, een visie in drie punten, certificeringen met PSM II voorop, en ondernemingsraad en zomerkamp onder "Naast het werk".
+- Bewust vaag gehouden op een openbare site: "een grote systeemtransitie" in plaats van het standaardpakket of Klaxon.
+- `varianten/assets/portret-vrij.webp`: vrijstaande versie van de portretfoto, gemaakt uit `versions/assets-pre-v2-replace/bron-profielfoto-v2.png` door de groene achtergrond weg te filteren op tint en verzadiging, met een zachte rand en groenonderdrukking op de randpixels. 1120×961, 82 kB.
+- Lettertypen zelf gehost in `varianten/fonts/` met hun OFL-licenties: Anton, Lato, Fraunces, Geist en Geist Mono, via Fontsource 5.3.0. Geen externe verzoeken tijdens het laden.
+- Alle varianten hebben `noindex, nofollow` en zijn niet gelinkt vanaf de live site.
+- Verificatie: lokaal geserveerd en met Playwright/Chromium doorgescrold op 320, 390, 768, 1024, 1280 en 1440 pixels. Geen horizontale overflow, geen console- of laadfouten, precies een H1 per pagina, alle afbeeldingen geladen. Met `prefers-reduced-motion` blijft alle tekst zichtbaar. Printen werkt, maar is nog niet geoptimaliseerd: 11 tot 13 A4-pagina's per variant tegenover 4 bij de live site.
+
 ## 2026-09-09 (profielfoto v2)
 
 - `assets/portret.jpg` vervangen door de nieuwe foto `Profiel Photo v2.png` uit `~/Downloads/`.

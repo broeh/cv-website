@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Drie varianten | hansbroerse.nl</title>
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+  <style>
+    @font-face { font-family: 'Geist'; src: url(fonts/geist-wght.woff2) format('woff2'); font-weight: 100 900; font-display: swap; }
+    :root { --bg: #f4f3ee; --ink: #16201a; --muted: #5c665f; --line: #dcdcd2; --card: #fff; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--ink); font: 400 16px/1.6 'Geist', system-ui, sans-serif; }
+    main { width: min(1240px, calc(100% - 40px)); margin: 0 auto; padding: 64px 0 80px; }
+    h1 { font-size: clamp(2.2rem, 5vw, 3.6rem); line-height: 1.05; letter-spacing: -.04em; font-weight: 650; margin: 0; }
+    .intro { max-width: 680px; margin: 18px 0 0; color: var(--muted); font-size: 18px; }
+    .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; margin-top: 48px; }
+    .card { display: flex; flex-direction: column; background: var(--card); border: 1px solid var(--line); border-radius: 20px; overflow: hidden; text-decoration: none; color: inherit; transition: transform .35s cubic-bezier(.2,.8,.2,1), box-shadow .35s; }
+    .card:hover { transform: translateY(-6px); box-shadow: 0 30px 60px -30px rgba(0,0,0,.35); }
+    .card img { width: 100%; aspect-ratio: 1.6; object-fit: cover; object-position: top; display: block; border-bottom: 1px solid var(--line); }
+    .body { padding: 22px 24px 26px; display: flex; flex-direction: column; gap: 10px; flex: 1; }
+    .tag { font-size: 12px; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); }
+    h2 { margin: 0; font-size: 26px; letter-spacing: -.03em; line-height: 1.1; }
+    .body p { margin: 0; color: var(--muted); }
+    ul { margin: 4px 0 0; padding-left: 18px; color: var(--muted); font-size: 15px; }
+    .sw { display: flex; gap: 6px; margin-top: auto; padding-top: 12px; }
+    .sw i { width: 26px; height: 26px; border-radius: 50%; border: 1px solid rgba(0,0,0,.1); }
+    .go { font-weight: 600; margin-top: 8px; }
+    .foot { margin-top: 40px; color: var(--muted); font-size: 15px; }
+    .foot a { color: var(--ink); }
+    @media (max-width: 960px) { .grid { grid-template-columns: 1fr; max-width: 560px; } }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Drie varianten voor hansbroerse.nl</h1>
+    <p class="intro">Alle drie gericht op de rol Chapter Lead, met dezelfde feiten en dezelfde teksten als basis. Het verschil zit in de vormgeving, de toon en hoe dicht ze bij de huisstijl van Klaverblad liggen.</p>
+    <div class="grid">
+      <a class="card" href="a-klaver/">
+        <img src="assets/preview-a-klaver.webp" width="960" height="600" alt="Voorbeeld van variant A, Klaver">
+        <div class="body">
+          <span class="tag">Variant A</span>
+          <h2>Klaver</h2>
+          <p>Het dichtst bij de huisstijl van Klaverblad. Donkergroen, krachtige koppen en een klavertje vier als beeldmotief.</p>
+          <ul>
+            <li>Vier leiderschapsprincipes als de vier bladen van één klaver</li>
+            <li>Groeiende staafgrafiek van zes rollen en een groeipad als tijdlijn</li>
+            <li>Vrijstaande foto voor een draaiende klaver</li>
+          </ul>
+          <div class="sw" aria-hidden="true"><i style="background:#004312"></i><i style="background:#035f1b"></i><i style="background:#82c493"></i><i style="background:#f2f5f3"></i></div>
+          <span class="go">Bekijk variant A →</span>
+        </div>
+      </a>
+      <a class="card" href="b-hoofdstukken/">
+        <img src="assets/preview-b-hoofdstukken.webp" width="960" height="600" alt="Voorbeeld van variant B, Hoofdstukken">
+        <div class="body">
+          <span class="tag">Variant B</span>
+          <h2>Hoofdstukken</h2>
+          <p>Een redactioneel magazine. Je loopbaan in zeven hoofdstukken, met het bordeauxrood en groen uit het Klaverblad-logo.</p>
+          <ul>
+            <li>Chapter Lead als woordspeling: de site is een boek</li>
+            <li>Tekst die oplicht tijdens het lezen, een interview met vraag en antwoord</li>
+            <li>Sluit af met "Wordt vervolgd."</li>
+          </ul>
+          <div class="sw" aria-hidden="true"><i style="background:#f4efe4"></i><i style="background:#1c1a16"></i><i style="background:#89001d"></i><i style="background:#0f3a21"></i></div>
+          <span class="go">Bekijk variant B →</span>
+        </div>
+      </a>
+      <a class="card" href="c-chapter/">
+        <img src="assets/preview-c-chapter.webp" width="960" height="600" alt="Voorbeeld van variant C, Chapter">
+        <div class="body">
+          <span class="tag">Variant C</span>
+          <h2>Chapter</h2>
+          <p>Donker en technisch, voor een IT-publiek. Het meest expliciet over de rol, met een levende visualisatie van teams en vakgebieden.</p>
+          <ul>
+            <li>Interactieve matrix: vakmanschap dwars door teams heen</li>
+            <li>Bento-cijfers, spotlight-kaarten en gestapelde werkkaarten</li>
+            <li>Groene gloed op het merkgroen van Klaverblad</li>
+          </ul>
+          <div class="sw" aria-hidden="true"><i style="background:#050c08"></i><i style="background:#0b1811"></i><i style="background:#4fd27c"></i><i style="background:#e9f2ec"></i></div>
+          <span class="go">Bekijk variant C →</span>
+        </div>
+      </a>
+    </div>
+    <p class="foot">Ter vergelijking: <a href="../">de huidige site</a>. De varianten zijn niet geïndexeerd en niet gelinkt vanaf de huidige site.</p>
+  </main>
+</body>
+</html>

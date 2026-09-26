@@ -43,3 +43,15 @@ The design was deliberately made more formal in a second September 2026 pass: no
 - `docs/content_sources.md` - factual scope, source notes and asset attribution
 
 Preview locally with `python -m http.server 8765 --bind 127.0.0.1`. Check desktop and mobile layouts, anchor links, keyboard access, loaded assets and print preview before publishing. The print button opens the browser print dialog, where visitors can save a PDF.
+
+## Chapter Lead variants
+
+`varianten/` holds three alternative designs aimed at the internal Chapter Lead vacancy at Klaverblad, built in September 2026 to choose from. The live `index.html` is unchanged. Open `varianten/` on the local preview server for a side-by-side chooser.
+
+- `varianten/a-klaver/` - Klaverblad house style: deep green, Anton and Lato, four-leaf clover motif
+- `varianten/b-hoofdstukken/` - editorial magazine: the career told in chapters, Fraunces, burgundy and green
+- `varianten/c-chapter/` - dark and technical: interactive team/discipline matrix, Geist
+- `varianten/fonts/` - self-hosted fonts with their OFL licenses
+- `varianten/assets/` - cut-out portrait and chooser previews
+
+Each variant is a standalone page with its own `style.css` and `main.js`, marked `noindex`. They are more expressive than the formal live design on purpose. Print styling is basic and not yet tuned to four pages.
