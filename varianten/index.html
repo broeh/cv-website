@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Drie varianten | hansbroerse.nl</title>
+  <title>Vier varianten | hansbroerse.nl</title>
   <meta name="robots" content="noindex, nofollow">
   <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
   <style>
@@ -14,10 +14,11 @@
     main { width: min(1240px, calc(100% - 40px)); margin: 0 auto; padding: 64px 0 80px; }
     h1 { font-size: clamp(2.2rem, 5vw, 3.6rem); line-height: 1.05; letter-spacing: -.04em; font-weight: 650; margin: 0; }
     .intro { max-width: 680px; margin: 18px 0 0; color: var(--muted); font-size: 18px; }
-    .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; margin-top: 48px; }
+    .grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 22px; margin-top: 48px; }
     .card { display: flex; flex-direction: column; background: var(--card); border: 1px solid var(--line); border-radius: 20px; overflow: hidden; text-decoration: none; color: inherit; transition: transform .35s cubic-bezier(.2,.8,.2,1), box-shadow .35s; }
+    .card.featured { border: 2px solid #035f1b; }
     .card:hover { transform: translateY(-6px); box-shadow: 0 30px 60px -30px rgba(0,0,0,.35); }
-    .card img { width: 100%; aspect-ratio: 1.6; object-fit: cover; object-position: top; display: block; border-bottom: 1px solid var(--line); }
+    .card img { width: 100%; height: auto; aspect-ratio: 1.6; object-fit: cover; object-position: top; display: block; border-bottom: 1px solid var(--line); }
     .body { padding: 22px 24px 26px; display: flex; flex-direction: column; gap: 10px; flex: 1; }
     .tag { font-size: 12px; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); }
     h2 { margin: 0; font-size: 26px; letter-spacing: -.03em; line-height: 1.1; }
@@ -33,9 +34,24 @@
 </head>
 <body>
   <main>
-    <h1>Drie varianten voor hansbroerse.nl</h1>
-    <p class="intro">Alle drie gericht op de rol Chapter Lead, met dezelfde feiten en dezelfde teksten als basis. Het verschil zit in de vormgeving, de toon en hoe dicht ze bij de huisstijl van Klaverblad liggen.</p>
+    <h1>Vier varianten voor hansbroerse.nl</h1>
+    <p class="intro">Alle vier gericht op de rol Chapter Lead, met dezelfde feiten en dezelfde teksten als basis. Het verschil zit in de vormgeving, de toon en hoe dicht ze bij de huisstijl van Klaverblad liggen.</p>
     <div class="grid">
+      <a class="card featured" href="d-klaver-rustig/">
+        <img src="assets/preview-d-klaver-rustig.webp" width="960" height="600" alt="Voorbeeld van variant D, Klaver rustig">
+        <div class="body">
+          <span class="tag">Variant D · nieuw</span>
+          <h2>Klaver, rustig</h2>
+          <p>Een samensmelting: de groene huisstijl en de elementen van A, met de rustige schreefletter en een paar details van B.</p>
+          <ul>
+            <li>Alles uit A: klaver, staafgrafiek, van vraag naar bewijs, groeipad</li>
+            <li>Fraunces in plaats van dikke hoofdletters, met cursieve groene accenten</li>
+            <li>Uit B: tekst die oplicht tijdens het lezen, de doorgestreepte demovoorbereiding en "Wordt vervolgd."</li>
+          </ul>
+          <div class="sw" aria-hidden="true"><i style="background:#004312"></i><i style="background:#035f1b"></i><i style="background:#82c493"></i><i style="background:#f8f5ec"></i></div>
+          <span class="go">Bekijk variant D →</span>
+        </div>
+      </a>
       <a class="card" href="a-klaver/">
         <img src="assets/preview-a-klaver.webp" width="960" height="600" alt="Voorbeeld van variant A, Klaver">
         <div class="body">

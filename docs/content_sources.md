@@ -104,3 +104,5 @@ Niet geclaimd: lijnverantwoordelijkheid, de HR-cyclus, getrokken gildes of vakgr
 Lettertypen in `varianten/fonts/`, alle onder de SIL Open Font License en gedownload van Fontsource 5.3.0 via jsDelivr: Anton, Lato (400, 400 cursief, 700, 900), Fraunces (variabel, alle assen), Geist en Geist Mono (variabel). De licentieteksten staan ernaast.
 
 `varianten/assets/portret-vrij.webp` is een eigen bewerking van de portretfoto uit `versions/assets-pre-v2-replace/`. `preview-*.webp` zijn screenshots van de varianten voor de keuzepagina.
+
+Variant D (`varianten/d-klaver-rustig/`) gebruikt dezelfde teksten als A, met twee elementen uit B: de zin "Ik weet wat een tester, analist of ontwikkelaar doet..." en de afsluiting "Wordt vervolgd." Het portret `varianten/assets/portret-t.webp` is gemaakt uit `assets/portret_t.png`, een transparante versie die Hans op 26 september 2026 aanleverde.

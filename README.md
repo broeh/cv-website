@@ -46,12 +46,13 @@ Preview locally with `python -m http.server 8765 --bind 127.0.0.1`. Check deskto
 
 ## Chapter Lead variants
 
-`varianten/` holds three alternative designs aimed at the internal Chapter Lead vacancy at Klaverblad, built in September 2026 to choose from. The live `index.html` is unchanged. Open `varianten/` on the local preview server for a side-by-side chooser.
+`varianten/` holds four alternative designs aimed at the internal Chapter Lead vacancy at Klaverblad, built in September 2026 to choose from. The live `index.html` is unchanged. Open `varianten/` on the local preview server for a side-by-side chooser.
 
 - `varianten/a-klaver/` - Klaverblad house style: deep green, Anton and Lato, four-leaf clover motif
 - `varianten/b-hoofdstukken/` - editorial magazine: the career told in chapters, Fraunces, burgundy and green
 - `varianten/c-chapter/` - dark and technical: interactive team/discipline matrix, Geist
+- `varianten/d-klaver-rustig/` - merge of A and B: A's green layout and clover, B's Fraunces typography
 - `varianten/fonts/` - self-hosted fonts with their OFL licenses
-- `varianten/assets/` - cut-out portrait and chooser previews
+- `varianten/assets/` - cut-out portraits and chooser previews
 
 Each variant is a standalone page with its own `style.css` and `main.js`, marked `noindex`. They are more expressive than the formal live design on purpose. Print styling is basic and not yet tuned to four pages.

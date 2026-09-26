@@ -1,5 +1,14 @@
 # Development Log
 
+## 2026-09-26 (variant D: Klaver, rustig)
+
+- Hans koos variant A als beste, maar vond de dikke hoofdletters van Anton schreeuwerig, en vond B mooi en rustig maar niet groen genoeg. Op zijn verzoek een vierde variant gemaakt, ongeveer 75% A en 25% B: `varianten/d-klaver-rustig/`.
+- Van A: de hele opbouw, het donkergroene Klaverblad-palet, de draaiende klaver in de hero, de vier bladen, de staafgrafiek, van vraag naar bewijs, de werkkaarten, het groeipad en de pillvormige knoppen.
+- Van B: Fraunces voor koppen en cijfers, DM Sans voor tekst, geen hoofdletters meer in koppen maar cursieve groene accenten, cursieve ondertitels, de zin die woord voor woord oplicht tijdens het scrollen, de doorgestreepte demovoorbereiding bij Q-Delft en de afsluiting "Wordt vervolgd."
+- Portret: de nieuwe transparante foto `assets/portret_t.png` van Hans, omgezet naar `varianten/assets/portret-t.webp` (1100×939, 136 kB). Die is scherper en heeft schonere randen dan de eerder zelf uitgesneden versie.
+- Keuzepagina bijgewerkt naar vier varianten, met D bovenaan. Ook opgelost dat de previews daar aan de zijkant werden afgesneden.
+- Verificatie: Playwright/Chromium op 320, 390, 768, 1024, 1280 en 1440 pixels. Geen horizontale overflow, geen console- of laadfouten, een H1, alle afbeeldingen geladen, tekst zichtbaar met `prefers-reduced-motion`. Printen is nog niet geoptimaliseerd, net als bij A tot en met C.
+
 ## 2026-09-26 (drie varianten voor Chapter Lead)
 
 - Drie nieuwe ontwerpen van de site gebouwd onder `varianten/`, gericht op de interne vacature Chapter Lead bij Klaverblad. De live site `index.html` is niet gewijzigd. Keuzepagina: `varianten/index.html`.
