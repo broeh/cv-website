@@ -106,3 +106,7 @@ Lettertypen in `varianten/fonts/`, alle onder de SIL Open Font License en gedown
 `varianten/assets/portret-vrij.webp` is een eigen bewerking van de portretfoto uit `versions/assets-pre-v2-replace/`. `preview-*.webp` zijn screenshots van de varianten voor de keuzepagina.
 
 Variant D (`varianten/d-klaver-rustig/`) gebruikt dezelfde teksten als A, met twee elementen uit B: de zin "Ik weet wat een tester, analist of ontwikkelaar doet..." en de afsluiting "Wordt vervolgd." Het portret `varianten/assets/portret-t.webp` is gemaakt uit `assets/portret_t.png`, een transparante versie die Hans op 26 september 2026 aanleverde.
+
+## Live sinds 27 september 2026
+
+De hoofdpagina gebruikt de teksten van variant D, met de bronnen zoals hierboven beschreven. De nieuwe `assets/og-image.png` is lokaal gegenereerd uit `assets/portret-t.webp`, met de eigen lettertypen en kleuren van de site. Fraunces staat in `assets/` met `assets/fraunces-OFL.txt`.

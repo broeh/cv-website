@@ -23,6 +23,8 @@ Pushing to `main` triggers a Vercel deployment.
 
 - `index.html` - profile page content and metadata
 - `styles.css` - visual styling
+- `main.js` - scroll and entrance animations
+- `.vercelignore` - keeps `varianten/` off the live site
 - `robots.txt` - crawler policy
 - `sitemap.xml` - sitemap for crawlers
 - `.well-known/security.txt` - security contact/trust signal
@@ -34,9 +36,9 @@ The site is intentionally plain HTML/CSS. Content is based on the local `cv-brai
 
 ## Design and editing
 
-The September 2026 design uses warm paper, dark ink, orange accents and self-hosted typography. Sections cover profile, selected work, certifications, AI-adoption direction, career history and contact, in that order. A portrait and a five-item facts strip open the page. Edit the semantic HTML directly; responsive and print layouts are in `styles.css`.
+Since 27 September 2026 the site uses variant D from `varianten/d-klaver-rustig/`, aimed at the internal Chapter Lead vacancy at Klaverblad. It pairs Klaverblad's deep green palette and a four-leaf clover motif with the Fraunces serif for headings and DM Sans for body text. Sections: hero, facts, profile, leadership (four leaves), from requirement to evidence, selected work, vision, certifications, career and contact. `main.js` handles scroll reveals, counters, the growing timeline stem and the statement that lights up word by word. All motion respects `prefers-reduced-motion`.
 
-The design was deliberately made more formal in a second September 2026 pass: no rotated elements, no decorative tape effect, factual section headings rather than slogans, and a single accent colour. Keep it that way when editing.
+The previous formal AI-adoption version is tagged `site-v1-ai-adoptie`. Restore it with `git checkout site-v1-ai-adoptie -- index.html styles.css assets/og-image.png` and delete `main.js`, or roll back the deployment in Vercel.
 
 - `assets/` - portrait, share image, certification badges, fonts, font licenses and favicon
 - `versions/` - originals of replaced assets (portrait and share image per revision date)

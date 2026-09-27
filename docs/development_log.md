@@ -1,5 +1,16 @@
 # Development Log
 
+## 2026-09-27 (variant D live)
+
+- Variant D, Klaver rustig, is de nieuwe hoofdpagina van hansbroerse.nl. `index.html`, `styles.css` en het nieuwe `main.js` komen uit `varianten/d-klaver-rustig/`, met de paden omgezet naar de root.
+- De metadata van de vorige site is overgenomen en bijgewerkt voor de nieuwe richting: titel en omschrijving over mensen en vakmanschap, `index, follow`, canonical, Open Graph, Twitter-kaart en JSON-LD. In `knowsAbout` is AI-adoptie vervangen door onder meer teamontwikkeling, dienend leiderschap en vakmanschap. PSM II staat voorop bij de certificeringen.
+- `assets/og-image.png` opnieuw gemaakt in de nieuwe stijl: donkergroen, Fraunces, klaver en het transparante portret, met "Mensen en vakmanschap laten groeien" in plaats van "AI-adoptie". De oude staat in `versions/assets-pre-2026-09-27/`.
+- Fraunces en de licentie staan nu ook in `assets/`, net als `portret-t.webp`.
+- `.vercelignore` toegevoegd met `varianten/`. De vier varianten blijven in de repo, maar komen niet op de live site.
+- `sitemap.xml` bijgewerkt naar 2026-09-27.
+- Terugzetten: de vorige live versie is getagd als `site-v1-ai-adoptie` (commit 1cd36ea). Daarnaast kan in Vercel een eerdere deployment direct worden teruggezet.
+- Verificatie lokaal: Playwright/Chromium op 320, 390, 1024 en 1440 pixels, zonder overflow en zonder fouten, met een H1, alle afbeeldingen geladen en geldige JSON-LD. Printen is nog niet geoptimaliseerd: de printknop geeft ongeveer 12 A4-pagina's.
+
 ## 2026-09-26 (variant D: Klaver, rustig)
 
 - Hans koos variant A als beste, maar vond de dikke hoofdletters van Anton schreeuwerig, en vond B mooi en rustig maar niet groen genoeg. Op zijn verzoek een vierde variant gemaakt, ongeveer 75% A en 25% B: `varianten/d-klaver-rustig/`.
