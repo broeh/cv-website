@@ -1,5 +1,11 @@
 # Development Log
 
+## 2026-09-28 (terug naar de originele site, Chapter Lead-versie geparkeerd)
+
+- Op verzoek van Hans staat de originele site weer live. `index.html`, `styles.css`, `assets/og-image.png` en `sitemap.xml` zijn teruggezet naar de tag `site-v1-ai-adoptie` en zijn daar weer byte voor byte gelijk aan. `main.js`, `assets/portret-t.webp` en Fraunces in `assets/` zijn verwijderd, omdat de originele site ze niet gebruikt.
+- De Chapter Lead-versie (variant D) is geparkeerd onder de tag `site-v2-chapter-lead` (commit 8ac97bf). De lokale branch `chapter-lead-varianten` wijst ook naar die commit. De vier varianten blijven in `varianten/` en `.vercelignore` houdt ze van de live site.
+- Weer live zetten: `git checkout site-v2-chapter-lead -- index.html styles.css main.js sitemap.xml assets/` en daarna committen en pushen, of in Vercel de deployment van 27 september promoten naar productie.
+
 ## 2026-09-27 (variant D live)
 
 - Variant D, Klaver rustig, is de nieuwe hoofdpagina van hansbroerse.nl. `index.html`, `styles.css` en het nieuwe `main.js` komen uit `varianten/d-klaver-rustig/`, met de paden omgezet naar de root.

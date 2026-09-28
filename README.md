@@ -23,7 +23,6 @@ Pushing to `main` triggers a Vercel deployment.
 
 - `index.html` - profile page content and metadata
 - `styles.css` - visual styling
-- `main.js` - scroll and entrance animations
 - `.vercelignore` - keeps `varianten/` off the live site
 - `robots.txt` - crawler policy
 - `sitemap.xml` - sitemap for crawlers
@@ -36,9 +35,9 @@ The site is intentionally plain HTML/CSS. Content is based on the local `cv-brai
 
 ## Design and editing
 
-Since 27 September 2026 the site uses variant D from `varianten/d-klaver-rustig/`, aimed at the internal Chapter Lead vacancy at Klaverblad. It pairs Klaverblad's deep green palette and a four-leaf clover motif with the Fraunces serif for headings and DM Sans for body text. Sections: hero, facts, profile, leadership (four leaves), from requirement to evidence, selected work, vision, certifications, career and contact. `main.js` handles scroll reveals, counters, the growing timeline stem and the statement that lights up word by word. All motion respects `prefers-reduced-motion`.
+The September 2026 design uses warm paper, dark ink, orange accents and self-hosted typography. Sections cover profile, selected work, certifications, AI-adoption direction, career history and contact, in that order. A portrait and a five-item facts strip open the page. Edit the semantic HTML directly; responsive and print layouts are in `styles.css`.
 
-The previous formal AI-adoption version is tagged `site-v1-ai-adoptie`. Restore it with `git checkout site-v1-ai-adoptie -- index.html styles.css assets/og-image.png` and delete `main.js`, or roll back the deployment in Vercel.
+The design was deliberately made more formal in a second September 2026 pass: no rotated elements, no decorative tape effect, factual section headings rather than slogans, and a single accent colour. Keep it that way when editing.
 
 - `assets/` - portrait, share image, certification badges, fonts, font licenses and favicon
 - `versions/` - originals of replaced assets (portrait and share image per revision date)
@@ -46,7 +45,9 @@ The previous formal AI-adoption version is tagged `site-v1-ai-adoptie`. Restore 
 
 Preview locally with `python -m http.server 8765 --bind 127.0.0.1`. Check desktop and mobile layouts, anchor links, keyboard access, loaded assets and print preview before publishing. The print button opens the browser print dialog, where visitors can save a PDF.
 
-## Chapter Lead variants
+## Chapter Lead variants (parked)
+
+A Chapter Lead version of the whole site (variant D) was live on 27 and 28 September 2026 and is parked under the tag `site-v2-chapter-lead`. To put it back live, run `git checkout site-v2-chapter-lead -- index.html styles.css main.js sitemap.xml assets/`, then commit and push.
 
 `varianten/` holds four alternative designs aimed at the internal Chapter Lead vacancy at Klaverblad, built in September 2026 to choose from. The live `index.html` is unchanged. Open `varianten/` on the local preview server for a side-by-side chooser.
 
