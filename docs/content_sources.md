@@ -125,3 +125,11 @@ De hoofdpagina gebruikt de teksten van variant D, met de bronnen zoals hierboven
 - **Het Klaverblad-logo staat bewust niet op de pagina.** Er is alleen een eigen klavermotief gebruikt.
 
 `varianten/assets/preview-e-ai-adoptie.webp` is een screenshot van de variant voor de keuzepagina.
+
+## Live sinds 28 september 2026, variant E
+
+De hoofdpagina gebruikt de inhoud van variant E, met de bronnen zoals hierboven beschreven. De metadata is gelijk aan die van de vorige live site: titel, omschrijving, Open Graph en JSON-LD. Alleen de themakleur is nieuw.
+
+- **Lettertypen:** Lato 400, 400 cursief en 700 staan in `assets/`, met `assets/lato-OFL.txt`. Ze komen van Fontsource 5.3.0.
+- **Portret:** `assets/portret-t.webp` is hetzelfde transparante portret als in de varianten.
+- **Deelafbeelding:** `assets/og-image.png` is lokaal gegenereerd in de nieuwe stijl, met Lato, het groene kader, de klaver en het transparante portret. De vorige staat in `versions/assets-pre-2026-09-28/`.

@@ -1,5 +1,20 @@
 # Development Log
 
+## 2026-09-28 (variant E live)
+
+- Op verzoek van Hans is variant E, de AI-adoptiesite in Klaverblad-huisstijl, de hoofdpagina van hansbroerse.nl. `index.html`, `styles.css` en `main.js` komen uit `varianten/e-ai-adoptie/`. De paden zijn omgezet naar de root.
+- De metadata is overgenomen van de vorige live site: titel, omschrijving, `index, follow`, canonical, Open Graph, Twitter-kaart en JSON-LD. Alleen `theme-color` is nu wit.
+- Lato (400, 400 cursief, 700) met licentie en `portret-t.webp` zijn naar `assets/` gekopieerd.
+- `assets/og-image.png` is opnieuw gemaakt in de nieuwe stijl. De vorige staat in `versions/assets-pre-2026-09-28/`.
+- `sitemap.xml` is bijgewerkt naar 2026-09-28.
+- Hans zag lokaal geen portret en kreeg 404's op de fonts. Oorzaak: de testserver draaide vanuit `varianten/e-ai-adoptie/`, zodat `../fonts/` en `../assets/` buiten de serverroot vielen. Dat is geen fout in de pagina. In de README staat nu dat de preview vanuit de projectroot moet draaien.
+- Terugzetten naar het vorige ontwerp: `git checkout site-v1-ai-adoptie -- index.html styles.css sitemap.xml assets/og-image.png`, `main.js` verwijderen, committen en pushen. Het kan ook door in Vercel de vorige deployment te promoten.
+- Verificatie lokaal: Playwright/Chromium op 320, 390, 768, 1024, 1280 en 1440 pixels.
+  - Geen overflow, geen console- of laadfouten.
+  - Een H1, alle afbeeldingen geladen en geldige JSON-LD.
+  - Tekst zichtbaar met `prefers-reduced-motion`.
+  - De printknop geeft ongeveer 10 A4-pagina's.
+
 ## 2026-09-28 (variant E: AI-adoptie in Klaverblad-huisstijl)
 
 - Hans wil de AI Adoptie Consultant-site net zo spectaculair als de Chapter Lead-versie, maar vond Anton te zwaar en Fraunces ook niet mooi. Nieuwe variant `varianten/e-ai-adoptie/`, met de opbouw van D en de stijl uit de Klaverblad-brandmanual (`~/Projects/Sollicitatie/klaverblad_brandstyle.md`).

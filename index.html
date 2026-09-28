@@ -7,7 +7,7 @@
   <meta name="description" content="Hans Broerse, Scrum Master bij Klaverblad Verzekeringen. Sinds 1998 in IT, sinds 2011 in Agile-rollen. Vijf teams opgezet en begeleid, facilitatie en verandering, met vier actuele Scrum.org-certificeringen.">
   <meta name="robots" content="index, follow">
   <meta name="author" content="Hans Broerse">
-  <meta name="theme-color" content="#f5f2e9">
+  <meta name="theme-color" content="#ffffff">
   <meta property="og:title" content="Hans Broerse | Scrum Master · teams, verandering en AI-adoptie">
   <meta property="og:description" content="Scrum Master bij Klaverblad Verzekeringen. Sinds 1998 in IT, sinds 2011 in Agile-rollen. Vijf teams opgezet en begeleid, facilitatie en verandering.">
   <meta property="og:type" content="profile">
@@ -26,8 +26,11 @@
   <link rel="me" href="https://www.linkedin.com/in/hans-broerse-25328b5/">
   <link rel="sitemap" type="application/xml" href="/sitemap.xml">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-  <link rel="preload" href="assets/bricolage-grotesque-700.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="preload" href="assets/lato-400.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/portret-t.webp" as="image">
   <link rel="stylesheet" href="styles.css">
+  <script>document.documentElement.classList.add('js')</script>
+  <script src="main.js" defer></script>
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -54,119 +57,223 @@
 </head>
 <body id="top">
   <a class="skip-link" href="#inhoud">Direct naar de inhoud</a>
-  <header class="site-header wrap">
-    <a class="wordmark" href="#top" aria-label="Hans Broerse, naar boven">hans broerse<span aria-hidden="true">.</span></a>
-    <nav aria-label="Hoofdnavigatie">
-      <a href="#profiel">Profiel</a>
-      <a href="#werk">Werk</a>
-      <a href="#certificaten">Certificeringen</a>
-      <a href="#ervaring">Loopbaan</a>
-      <a href="#contact" class="nav-contact">Contact <span aria-hidden="true">↗</span></a>
-    </nav>
+
+  <svg width="0" height="0" class="defs" aria-hidden="true" focusable="false">
+    <defs>
+      <path id="leaf" d="M0,-6 C-9,-16 -47,-36 -47,-65 C-47,-87 -19,-95 0,-75 C19,-95 47,-87 47,-65 C47,-36 9,-16 0,-6 Z"/>
+      <linearGradient id="leaf-a" x1="0" y1="1" x2="0" y2="0">
+        <stop offset="0" stop-color="#287a25"/><stop offset="1" stop-color="#5fb35a"/>
+      </linearGradient>
+      <linearGradient id="leaf-b" x1="0" y1="1" x2="0" y2="0">
+        <stop offset="0" stop-color="#32912f"/><stop offset="1" stop-color="#8fd08a"/>
+      </linearGradient>
+    </defs>
+  </svg>
+
+  <header class="topbar" data-topbar>
+    <div class="wrap topbar-inner">
+      <a class="wordmark" href="#top" aria-label="Hans Broerse, naar boven">
+        <svg viewBox="-100 -100 200 200" aria-hidden="true"><g><use href="#leaf" transform="rotate(-45)"/><use href="#leaf" transform="rotate(45)"/><use href="#leaf" transform="rotate(135)"/><use href="#leaf" transform="rotate(225)"/></g></svg>
+        Hans Broerse
+      </a>
+      <nav aria-label="Hoofdnavigatie">
+        <a href="#profiel">Profiel</a>
+        <a href="#aanpak">Aanpak</a>
+        <a href="#werk">Werk</a>
+        <a href="#ai">AI in de praktijk</a>
+        <a href="#loopbaan">Loopbaan</a>
+        <a href="#contact" class="nav-cta">Contact</a>
+      </nav>
+    </div>
   </header>
 
   <main id="inhoud">
-    <section class="hero wrap" aria-labelledby="hero-title">
-      <div class="hero-copy">
-        <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> Scrum Master bij Klaverblad Verzekeringen · Zoetermeer</p>
-        <h1 id="hero-title">Nieuwe technologie<br><span class="underlined">werkbaar maken.</span></h1>
-        <p class="hero-intro">Sinds 1998 werk ik in IT, sinds 2011 in Agile-rollen. Bij Klaverblad zette ik vijf teams op en begeleidde ik ze bij nieuwe manieren van werken. Complexe techniek vertaal ik naar keuzes waar mensen mee verder kunnen. Die ervaring zet ik nu gericht in voor AI-adoptie.</p>
-        <p class="print-contact">hansb1980@gmail.com · linkedin.com/in/hans-broerse-25328b5 · hansbroerse.nl · Zoetermeer</p>
-        <div class="hero-actions">
-          <a class="button" href="#profiel">Bekijk mijn profiel <span aria-hidden="true">↓</span></a>
-          <a class="text-link" href="https://www.linkedin.com/in/hans-broerse-25328b5/">LinkedIn <span aria-hidden="true">↗</span></a>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="dot" aria-hidden="true"></span>Scrum Master bij Klaverblad Verzekeringen · Zoetermeer</p>
+          <div class="kader hero-kader">
+            <h1 id="hero-title"><span class="ln"><span>Nieuwe</span></span> <span class="ln"><span>technologie</span></span> <span class="ln"><span>werkbaar maken.</span></span></h1>
+          </div>
+          <p class="hero-intro">Sinds 1998 werk ik in IT, sinds 2011 in Agile-rollen. Bij Klaverblad zette ik vijf teams op en begeleidde ik ze bij nieuwe manieren van werken. Complexe techniek vertaal ik naar keuzes waar mensen mee verder kunnen. Die ervaring zet ik nu gericht in voor AI-adoptie.</p>
+          <div class="hero-actions">
+            <a class="btn" href="#aanpak">Bekijk mijn aanpak <span aria-hidden="true">↓</span></a>
+            <a class="btn btn-line" href="https://www.linkedin.com/in/hans-broerse-25328b5/">LinkedIn <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <svg class="hero-clover" viewBox="-110 -110 220 220" aria-hidden="true">
+            <g class="spin">
+              <g transform="rotate(-45)"><use class="grow" href="#leaf" style="--i:0"/></g>
+              <g transform="rotate(45)"><use class="grow" href="#leaf" style="--i:1"/></g>
+              <g transform="rotate(135)"><use class="grow" href="#leaf" style="--i:2"/></g>
+              <g transform="rotate(225)"><use class="grow" href="#leaf" style="--i:3"/></g>
+            </g>
+          </svg>
+          <img class="hero-portrait" src="assets/portret-t.webp" width="1100" height="939" alt="Portretfoto van Hans Broerse" fetchpriority="high">
+          <a class="bol" href="#contact"><span>Even bijpraten? Mail me gerust</span></a>
         </div>
       </div>
-      <figure class="portrait">
-        <img src="assets/portret.jpg" width="760" height="760" alt="Portretfoto van Hans Broerse" fetchpriority="high">
-      </figure>
     </section>
 
-    <section class="facts-strip wrap" aria-labelledby="kort-title">
-      <h2 class="eyebrow" id="kort-title">Profiel in het kort</h2>
+    <section class="facts wrap" aria-labelledby="facts-title">
+      <h2 class="sr-only" id="facts-title">Profiel in het kort</h2>
       <dl>
-        <div><dt>In IT sinds</dt><dd>1998</dd></div>
-        <div><dt>Agile-rollen sinds</dt><dd>2011</dd></div>
-        <div><dt>Bij Klaverblad</dt><dd>7 jaar · 5 teams</dd></div>
-        <div><dt>Scrum.org-certificeringen</dt><dd>4 actueel</dd></div>
-        <div><dt>Sectoren</dt><dd>Verzekeren, retail, publiek</dd></div>
+        <div><dt>In IT sinds</dt><dd><span data-count="1998" data-from="1960">1998</span></dd></div>
+        <div><dt>In Agile-rollen sinds</dt><dd><span data-count="2011" data-from="1980">2011</span></dd></div>
+        <div><dt>Jaar bij Klaverblad</dt><dd><span data-count="7">7</span></dd></div>
+        <div><dt>Teams opgezet en begeleid</dt><dd><span data-count="5">5</span></dd></div>
+        <div><dt>Actuele Scrum.org-certificeringen</dt><dd><span data-count="4">4</span></dd></div>
       </dl>
     </section>
 
-    <div class="career-strip wrap">
-      <h2 class="eyebrow">Werkgevers en opdrachtgevers</h2>
-      <ul>
-        <li>Klaverblad Verzekeringen</li>
-        <li>Ahold Delhaize</li>
-        <li>Q-Delft / Netcompany</li>
-        <li>Capgemini</li>
-        <li>Atos</li>
-      </ul>
-    </div>
-
-    <section class="profile-section wrap section" id="profiel" aria-labelledby="profile-title">
-      <div class="section-label"><span>01 / Profiel</span><p>Techniek begrijpen, mensen meenemen, verandering laten landen.</p></div>
-      <div class="section-body">
-        <h2 id="profile-title">Sinds 1998 tussen techniek<br><span class="muted-heading">en de mensen die ermee werken.</span></h2>
-        <div class="profile-columns">
-          <p class="large-copy">Mijn loopbaan begon bij de helpdesk. Daar leerde ik luisteren, doorvragen en technische problemen begrijpelijk maken. Dat is nog steeds de kern van mijn werk.</p>
-          <div>
-            <p>Via applicatiebeheer, testcoördinatie en informatieanalyse groeide ik door naar Product Owner en Scrum Master. Ik ken het werk achter een idee en de samenwerking die nodig is om het in de praktijk te krijgen.</p>
-            <p>Bij Klaverblad zette ik in zeven jaar vijf softwareontwikkelteams op en begeleidde ik ze; op dit moment team AOV Claims en team Data. Ik faciliteer hun overleggen, voer verbeteringen in de werkwijze door en help teams, Product Owners en leidinggevenden om tot werkbare afspraken te komen. Zeven jaar in dezelfde organisatie betekent ook dat ik weet hoe besluitvorming hier loopt en waar verandering blijft steken.</p>
-          </div>
+    <section class="section profile" id="profiel" aria-labelledby="profiel-title">
+      <div class="wrap">
+        <div class="section-head" data-reveal>
+          <p class="kicker">01 · Profiel</p>
+          <h2 id="profiel-title">Sinds 1998 tussen techniek en <span class="hl">de mensen die ermee werken.</span></h2>
         </div>
-        <div class="strengths">
-          <article><span class="small-number">01</span><h3>Verandering begeleiden</h3><p>Teams coachen bij een nieuwe werkwijze, weerstand bespreekbaar maken en samen tot een aanpak komen die past.</p></article>
-          <article><span class="small-number">02</span><h3>Faciliteren en uitleggen</h3><p>Wekelijks sessies en workshops begeleiden. Nieuwe werkwijzen introduceren zonder jargon, zodat mensen ze zelf kunnen toepassen.</p></article>
-          <article><span class="small-number">03</span><h3>Complexiteit vertalen</h3><p>Van requirements en analyses naar heldere keuzes voor teams, Product Owners en management.</p></article>
-          <article><span class="small-number">04</span><h3>Ideeën concreet maken</h3><p>Ervaring met innovatiepilots en product ownership: van een kansrijk idee naar iets dat mensen daadwerkelijk gebruiken.</p></article>
+        <div class="profile-grid">
+          <div class="profile-text" data-reveal>
+            <p class="lead">Mijn loopbaan begon bij de helpdesk. Daar leerde ik luisteren, doorvragen en technische problemen begrijpelijk maken. Dat is nog steeds de kern van mijn werk.</p>
+            <p>Via applicatiebeheer, testcoördinatie en informatieanalyse groeide ik door naar Product Owner en Scrum Master. Ik ken het werk achter een idee en de samenwerking die nodig is om het in de praktijk te krijgen.</p>
+            <p>Bij Klaverblad zette ik in zeven jaar vijf softwareontwikkelteams op en begeleidde ik ze. Ik faciliteer hun overleggen, voer verbeteringen in de werkwijze door en help teams, Product Owners en leidinggevenden om tot werkbare afspraken te komen. Zeven jaar in dezelfde organisatie betekent ook dat ik weet hoe besluitvorming hier loopt en waar verandering blijft steken.</p>
+          </div>
+          <ol class="stairs" aria-label="Zes rollen in IT sinds 1998, en AI-adoptie als volgende stap" data-reveal>
+            <li style="--s:1"><span class="bar"></span><span class="role">Helpdesk en support</span></li>
+            <li style="--s:2"><span class="bar"></span><span class="role">Applicatiebeheer</span></li>
+            <li style="--s:3"><span class="bar"></span><span class="role">Testcoördinator</span></li>
+            <li style="--s:4"><span class="bar"></span><span class="role">Informatieanalist</span></li>
+            <li style="--s:5"><span class="bar"></span><span class="role">Product Owner</span></li>
+            <li style="--s:6" class="now"><span class="bar"></span><span class="role">Scrum Master</span></li>
+            <li style="--s:7" class="next"><span class="bar"></span><span class="role">Volgende stap: AI-adoptie</span></li>
+          </ol>
+        </div>
+        <p class="statement" data-words>AI verandert niet als eerste de techniek, maar het werk van mensen. Precies daar ligt mijn ervaring.</p>
+      </div>
+    </section>
+
+    <section class="section pillars" id="aanpak" aria-labelledby="aanpak-title">
+      <div class="wrap">
+        <div class="section-head centered" data-reveal>
+          <p class="kicker">02 · Aanpak</p>
+          <h2 id="aanpak-title">Vier bladen, <span class="hl">één klaver.</span></h2>
+          <p class="section-sub">Zo help ik collega's om AI te begrijpen, te vertrouwen en toe te passen in hun dagelijkse werk.</p>
+        </div>
+        <div class="clover-grid">
+          <article class="pillar p1" data-reveal>
+            <span class="pnum">01</span>
+            <h3>Begrijpen</h3>
+            <p>Uitleggen zonder jargon. Wat generatieve AI wel en niet kan, in sessies en workshops die aansluiten bij het werk van de mensen aan tafel.</p>
+          </article>
+          <article class="pillar p2" data-reveal>
+            <span class="pnum">02</span>
+            <h3>Vertrouwen</h3>
+            <p>Verantwoord gebruik binnen de kaders van een verzekeraar. Open zijn over wat er verandert, en ruimte maken om zorgen te bespreken.</p>
+          </article>
+          <div class="clover-center" aria-hidden="true">
+            <svg viewBox="-110 -110 220 230">
+              <path class="stem" d="M4,4 C10,40 28,70 22,112" />
+              <g transform="rotate(-45)"><use class="leaf leaf-1" href="#leaf"/><path class="vein" d="M0,-12 L0,-68"/></g>
+              <g transform="rotate(45)"><use class="leaf leaf-2" href="#leaf"/><path class="vein" d="M0,-12 L0,-68"/></g>
+              <g transform="rotate(225)"><use class="leaf leaf-3" href="#leaf"/><path class="vein" d="M0,-12 L0,-68"/></g>
+              <g transform="rotate(135)"><use class="leaf leaf-4" href="#leaf"/><path class="vein" d="M0,-12 L0,-68"/></g>
+            </svg>
+          </div>
+          <article class="pillar p3" data-reveal>
+            <span class="pnum">03</span>
+            <h3>Toepassen</h3>
+            <p>Klein beginnen bij echte taken. Samen met teams zoeken waar AI tijd of kwaliteit oplevert, en dat eerst uitproberen voordat het breder gaat.</p>
+          </article>
+          <article class="pillar p4" data-reveal>
+            <span class="pnum">04</span>
+            <h3>Verankeren</h3>
+            <p>Van pilot naar vaste praktijk. Collega's die voorop lopen met elkaar verbinden, bijhouden wat werkt en dat breder uitrollen.</p>
+          </article>
         </div>
       </div>
     </section>
 
-    <section class="work-section wrap section" id="werk" aria-labelledby="work-title">
-      <div class="section-label"><span>02 / Geselecteerd werk</span><p>Van een nieuwe aanpak naar de dagelijkse praktijk.</p></div>
-      <div class="section-body">
-        <h2 id="work-title">Geselecteerd werk.</h2>
-        <article class="work-item">
-          <div class="work-meta"><span>Klaverblad Verzekeringen</span><span>Scrum Master · 2019 → heden</span></div>
-          <div class="work-content">
-            <h3>De Agile werkwijze<br>van opzet naar praktijk.</h3>
-            <p>Toen ik begon was het vertrouwen in Scrum laag en was de werkwijze in verval geraakt. Ik heb die stap voor stap opnieuw neergezet, verbeterd en over vijf teams uitgerold: vaste cadans, duidelijker backlogwerk en retrospectives die daadwerkelijk tot aanpassingen leiden. Als assetmanager voor Jira legde ik die werkwijze vast voor de softwareontwikkelteams, inclusief uitleg en begeleiding. Bij de invoering van SAFe gaf ik workshops en bouwde ik mee. Sinds 2026 begeleid ik team Data, dat data uit alle systemen verzamelt en dashboards bouwt voor de business, en ben ik lid van de ondernemingsraad.</p>
-            <dl class="work-outcome">
+    <section class="section proof" id="bewijs" aria-labelledby="bewijs-title">
+      <div class="wrap proof-grid">
+        <div class="section-head sticky" data-reveal>
+          <p class="kicker">03 · Van vraag naar bewijs</p>
+          <h2 id="bewijs-title">Wat de rol vraagt. <span class="hl">Wat ik meebreng.</span></h2>
+          <p class="section-sub">Per punt wat ik heb gedaan, en eerlijk waar ik nog groei.</p>
+          <ul class="legend">
+            <li><span class="ico ico-done" aria-hidden="true"></span>Aantoonbaar gedaan</li>
+            <li><span class="ico ico-grow" aria-hidden="true"></span>Deels, of in ontwikkeling</li>
+          </ul>
+        </div>
+        <ol class="proof-list">
+          <li data-reveal><h3>Adoptie- en verandertrajecten</h3><p>De Agile werkwijze bij Klaverblad opnieuw opgebouwd en in vijf teams van invoering naar vaste praktijk gebracht. Eerder Scrum geïntroduceerd op de innovatieafdeling van Ahold.</p></li>
+          <li data-reveal><h3>Affiniteit met AI en generatieve AI</h3><p>Dagelijks zelf bouwen met AI: een eigen server, programmeren met AI-assistenten en lokale modellen. In 2026 PSM AI Essentials behaald.</p></li>
+          <li data-reveal><h3>Trainingen en workshops geven</h3><p>Wekelijks sessies en workshops als Scrum Master. Workshops bij de invoering van SAFe, instructie in de Jira-werkwijze en wekelijkse workshops met winkelmedewerkers bij Albert Heijn.</p></li>
+          <li data-reveal><h3>Presentatie en communicatie</h3><p>Presentaties en rapportages aan teams, stuurgroepen, management, directie en ondernemingsraad.</p></li>
+          <li data-reveal><h3>Stakeholdermanagement</h3><p>Teams, Product Owners en leidinggevenden helpen om tot werkbare afspraken te komen. Bij Q-Delft de samenwerking tussen team en opdrachtgever weer op gang gebracht.</p></li>
+          <li data-reveal><h3>Weerstand omzetten in beweging</h3><p>Bij Klaverblad begonnen toen het vertrouwen in Scrum laag was. Bij Q-Delft een vastgelopen project weer op koers gebracht, juist toen er scepsis was.</p></li>
+          <li data-reveal><h3>Financiële dienstverlening <span class="pre">Pré</span></h3><p>Zeven jaar bij Klaverblad Verzekeringen. Ik ken de organisatie, de kaders en de mensen.</p></li>
+          <li data-reveal class="grow"><h3>Microsoft Copilot <span class="pre">Pré</span></h3><p>Op mijn werk gebruik ik Copilot binnen de kaders die daar gelden. Een uitrol heb ik nog niet geleid.</p></li>
+          <li data-reveal class="grow"><h3>ADKAR of vergelijkbaar <span class="pre">Pré</span></h3><p>Bekend met ADKAR als adoptiemethodiek, zonder daarin getraind te zijn. In de praktijk werk ik met Agile en Scrum.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section work" id="werk" aria-labelledby="werk-title">
+      <div class="wrap">
+        <div class="section-head" data-reveal>
+          <p class="kicker">04 · Geselecteerd werk</p>
+          <h2 id="werk-title">Van een nieuwe aanpak <span class="hl">naar de dagelijkse praktijk.</span></h2>
+        </div>
+
+        <article class="case" data-reveal>
+          <div class="case-stat"><span class="big">5</span><span class="unit">teams opgezet<br>en begeleid</span></div>
+          <div class="case-body">
+            <p class="case-meta">Klaverblad Verzekeringen · Scrum Master · 2019 → heden</p>
+            <h3>De Agile werkwijze van opzet naar praktijk.</h3>
+            <p>Toen ik begon was het vertrouwen in Scrum laag en was de werkwijze in verval geraakt. Ik heb die stap voor stap opnieuw neergezet, verbeterd en over vijf teams uitgerold: vaste cadans, duidelijker backlogwerk en retrospectives die daadwerkelijk tot aanpassingen leiden. Als assetmanager voor Jira legde ik die werkwijze vast voor de softwareontwikkelteams, inclusief uitleg en begeleiding. Bij de invoering van SAFe gaf ik workshops en bouwde ik mee. Sinds 2026 begeleid ik team Data, dat data uit alle systemen verzamelt en dashboards bouwt voor de business.</p>
+            <dl class="case-outcome">
               <div><dt>Resultaat</dt><dd>De Agile werkwijze ging in vijf teams van invoering naar vaste praktijk.</dd></div>
               <div><dt>Relevantie</dt><dd>Dagelijkse ervaring met teambegeleiding, verandering en de organisatie van Klaverblad zelf.</dd></div>
             </dl>
           </div>
         </article>
-        <article class="work-item">
-          <div class="work-meta"><span>Q-Delft / Netcompany</span><span>Scrum Master · 2018 → 2019</span></div>
-          <div class="work-content">
-            <h3>Een vastgelopen project<br>weer op koers.</h3>
-            <p>Voor Koninklijke Onderscheidingen en lintjes.nl kwam ik als Scrum Master op een project dat niet liep. Ik heb Agile werken opnieuw onder de aandacht gebracht, het ritme hersteld en de samenwerking tussen team en opdrachtgever weer op gang gebracht. De demovoorbereiding bracht ik terug van bijna twee dagen met het hele team naar een paar uur voor één medewerker, en het team groeide naar ruim twintig mensen over meerdere scrumteams.</p>
-            <dl class="work-outcome">
+
+        <article class="case" data-reveal>
+          <div class="case-stat"><span class="big">20+</span><span class="unit">mensen over<br>meerdere scrumteams</span></div>
+          <div class="case-body">
+            <p class="case-meta">Q-Delft / Netcompany · Scrum Master · 2018 → 2019</p>
+            <h3>Een vastgelopen project weer op koers.</h3>
+            <p>Voor Koninklijke Onderscheidingen en lintjes.nl kwam ik als Scrum Master op een project dat niet liep. Ik heb Agile werken opnieuw onder de aandacht gebracht, het ritme hersteld en de samenwerking tussen team en opdrachtgever weer op gang gebracht. Het team groeide naar ruim twintig mensen over meerdere scrumteams.</p>
+            <p class="strike-line">De demovoorbereiding ging van <s>bijna twee dagen met het hele team</s> naar <strong>een paar uur voor één medewerker.</strong></p>
+            <dl class="case-outcome">
               <div><dt>Resultaat</dt><dd>De ontwikkelsnelheid kwam ruim boven het afgesproken niveau en de eerste versie ging volgens planning in productie.</dd></div>
               <div><dt>Relevantie</dt><dd>Werken aan een gezamenlijke aanpak, juist als er scepsis is en bijsturing nodig is.</dd></div>
             </dl>
           </div>
         </article>
-        <article class="work-item">
-          <div class="work-meta"><span>Albert Heijn / Ahold Delhaize</span><span>Scrum Master · 2017 → 2018</span></div>
-          <div class="work-content">
-            <h3>Winkelmedewerkers aan tafel<br>in plaats van erover praten.</h3>
+
+        <article class="case" data-reveal>
+          <div class="case-stat"><span class="big">0→1</span><span class="unit">nieuw scrumteam,<br>wekelijkse workshops</span></div>
+          <div class="case-body">
+            <p class="case-meta">Albert Heijn / Ahold Delhaize · Scrum Master · 2017 → 2018</p>
+            <h3>Winkelmedewerkers aan tafel in plaats van erover praten.</h3>
             <p>Bij de vervanging van de Albert Heijn-winkelapplicaties zette ik een geheel nieuw scrumteam op en organiseerde ik wekelijkse workshops met key-medewerkers uit de winkels. Daar haalden we requirements en user stories op en toetsten we wireframes in de winkel, voordat er iets gebouwd werd.</p>
-            <dl class="work-outcome">
+            <dl class="case-outcome">
               <div><dt>Resultaat</dt><dd>De kanteling van &ldquo;het hoofdkantoor bedenkt hoe het winkelpersoneel moet werken&rdquo; naar samen ontwerpen met de mensen die ermee werken.</dd></div>
               <div><dt>Relevantie</dt><dd>Workshops met eindgebruikers als manier om draagvlak te bouwen voordat iets wordt uitgerold.</dd></div>
             </dl>
           </div>
         </article>
-        <article class="work-item">
-          <div class="work-meta"><span>Ahold Innovation</span><span>Product Owner · 2014 → 2016</span></div>
-          <div class="work-content">
-            <h3>Van innovatiepilot<br>naar landelijke uitrol.</h3>
+
+        <article class="case" data-reveal>
+          <div class="case-stat"><span class="big">NL</span><span class="unit">van pilot naar<br>landelijk gebruik</span></div>
+          <div class="case-body">
+            <p class="case-meta">Ahold Innovation · Product Owner · 2014 → 2016</p>
+            <h3>Van innovatiepilot naar landelijke uitrol.</h3>
             <p>Als Product Owner was ik verantwoordelijk voor Mijn Etos: de klantenkaart, de loyaliteitsapp en persoonlijke kortingen. Daarnaast werkte ik aan pilots met Bol.com in Albert Heijn-winkels, persoonlijke aanbiedingen en mobiel zelfscannen. Steeds met dezelfde vraag: wat is technisch mogelijk, en wat gaan klanten en winkelmedewerkers echt gebruiken?</p>
-            <dl class="work-outcome">
+            <dl class="case-outcome">
               <div><dt>Resultaat</dt><dd>De Etos-klantenkaart, loyaliteitsapp en persoonlijke kortingen zijn landelijk in gebruik genomen.</dd></div>
               <div><dt>Relevantie</dt><dd>Nieuwe technologie vertalen naar concrete toepassingen, en pilots gebruiken om te leren voordat je opschaalt.</dd></div>
             </dl>
@@ -175,106 +282,124 @@
       </div>
     </section>
 
-    <section class="cert-section" id="certificaten" aria-labelledby="cert-title">
+    <section class="section ai" id="ai" aria-labelledby="ai-title">
       <div class="wrap">
-        <div class="section-heading">
-          <div><p class="eyebrow">03 / Certificeringen</p><h2 id="cert-title">Vier actuele<br>Scrum.org-certificeringen.</h2></div>
-          <p>Van Scrum Master en Product Owner tot de meest recente verdieping in generatieve AI.</p>
+        <div class="section-head" data-reveal>
+          <p class="kicker">05 · AI in de praktijk</p>
+          <h2 id="ai-title">Weten wat er kan. <span class="hl">Weten wat verstandig is.</span></h2>
+        </div>
+        <div class="split">
+          <article class="side side-home" data-reveal>
+            <p class="side-label">Thuis</p>
+            <h3>Alles uitproberen wat kan.</h3>
+            <ul>
+              <li>Een eigen server met zelfgebouwde tools</li>
+              <li>Programmeren met AI-assistenten</li>
+              <li>Machineleesbare kennisbanken bijhouden</li>
+              <li>Lokale modellen en lokale spraaksynthese</li>
+              <li>In mijn eigen studio professionele Nederlandse stemmen geproduceerd voor een AI-stemplatform</li>
+            </ul>
+          </article>
+          <p class="bridge" data-reveal><span>Juist dat verschil is bruikbaar.</span></p>
+          <article class="side side-work" data-reveal>
+            <p class="side-label">Op het werk</p>
+            <h3>Binnen de kaders van een verzekeraar.</h3>
+            <ul>
+              <li>Copilot gebruiken binnen de kaders die gelden</li>
+              <li>Begrijpen waarom een verzekeraar niet alles openzet</li>
+              <li>Mensen binnen die kaders iets in handen geven waar ze echt wat aan hebben</li>
+            </ul>
+          </article>
+        </div>
+        <blockquote class="quote" data-reveal>
+          <p>“Klein beginnen werkt bijna altijd beter dan een brede uitrol.”</p>
+        </blockquote>
+        <div class="ai-columns" data-reveal>
+          <p>Ik weet hoe je een nieuwe werkwijze introduceert bij mensen die het druk hebben en er niet om gevraagd hebben. Wat je moet uitleggen, waar mensen afhaken en waarom je beter klein kunt beginnen. Als lid van de ondernemingsraad weet ik bovendien hoe belangrijk transparantie en draagvlak zijn wanneer technologie het werk van collega's raakt.</p>
+          <p>Met PSM AI Essentials heb ik mijn praktijk aangevuld met een gestructureerde basis in generatieve AI, effectief prompten en verantwoord AI-gebruik. Ik ben bekend met ADKAR als adoptiemethodiek, en werk in de praktijk met Agile en Scrum.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section certs" id="certificaten" aria-labelledby="cert-title">
+      <div class="wrap">
+        <div class="section-head centered" data-reveal>
+          <p class="kicker">06 · Certificeringen</p>
+          <h2 id="cert-title">Vier actuele <span class="hl">Scrum.org-certificeringen.</span></h2>
+          <p class="section-sub">Van Scrum Master en Product Owner tot de meest recente verdieping in generatieve AI.</p>
         </div>
         <div class="cert-grid">
-          <article class="cert">
-            <img src="assets/psm-ai-essentials.png" alt="Scrum.org Professional Scrum Master AI Essentials" width="512" height="512" loading="lazy">
-            <p class="cert-date">Scrum.org · september 2026</p>
-            <h3>Professional Scrum Master <span>AI Essentials</span></h3>
-            <p class="cert-note">Een gerichte basis in generatieve AI, effectief prompten en verantwoord AI-gebruik binnen Scrum-teams.</p>
+          <article class="cert cert-new" data-reveal>
             <span class="cert-label">Meest recent</span>
+            <img src="assets/psm-ai-essentials.png" width="512" height="512" loading="lazy" alt="Scrum.org Professional Scrum Master AI Essentials">
+            <p class="cert-date">september 2026</p>
+            <h3>PSM AI Essentials</h3>
+            <p>Generatieve AI, effectief prompten en verantwoord AI-gebruik in Scrum-teams.</p>
           </article>
-          <article class="cert">
-            <img src="assets/psm-ii.png" alt="Scrum.org Professional Scrum Master II" width="512" height="512" loading="lazy">
-            <p class="cert-date">Scrum.org · juli 2026</p>
+          <article class="cert" data-reveal>
+            <img src="assets/psm-ii.png" width="512" height="512" loading="lazy" alt="Scrum.org Professional Scrum Master II">
+            <p class="cert-date">juli 2026</p>
             <h3>Professional Scrum Master II</h3>
-            <p class="cert-note">Gevorderd niveau: coaching, organisatieverandering en het werken met meerdere teams.</p>
+            <p>Coaching, organisatieverandering en werken met meerdere teams.</p>
           </article>
-          <article class="cert">
-            <img src="assets/pspo-i.png" alt="Scrum.org Professional Scrum Product Owner I" width="512" height="512" loading="lazy">
-            <p class="cert-date">Scrum.org · juli 2026</p>
+          <article class="cert" data-reveal>
+            <img src="assets/pspo-i.png" width="512" height="512" loading="lazy" alt="Scrum.org Professional Scrum Product Owner I">
+            <p class="cert-date">juli 2026</p>
             <h3>Professional Scrum Product Owner I</h3>
-            <p class="cert-note">Productwaarde, backlogmanagement en het maken van keuzes met stakeholders.</p>
+            <p>Productwaarde, backlogmanagement en keuzes maken met stakeholders.</p>
           </article>
-          <article class="cert">
-            <img src="assets/psm-i.png" alt="Scrum.org Professional Scrum Master I" width="512" height="512" loading="lazy">
-            <p class="cert-date">Scrum.org · september 2017</p>
+          <article class="cert" data-reveal>
+            <img src="assets/psm-i.png" width="512" height="512" loading="lazy" alt="Scrum.org Professional Scrum Master I">
+            <p class="cert-date">september 2017</p>
             <h3>Professional Scrum Master I</h3>
-            <p class="cert-note">De basis van het Scrum-raamwerk en de rol van de Scrum Master in een team.</p>
+            <p>Het Scrum-raamwerk en de rol van de Scrum Master.</p>
           </article>
         </div>
-        <div class="cert-footer">
-          <div class="earlier-certs">
-            <span>Eerder behaald</span>
-            <p><strong>CSPO Product Owner</strong> · Zilverline, 2015</p>
-            <p><strong>TMAP-certificaten</strong> · Capgemini, 2007</p>
-            <p><strong>ITIL Foundation</strong> · 2005</p>
-          </div>
-          <a class="text-link" href="https://www.scrum.org/certification-list">Te verifiëren in de certificeringslijst van Scrum.org <span aria-hidden="true">↗</span></a>
-        </div>
+        <p class="cert-foot">Eerder behaald: <strong>CSPO</strong> · Zilverline, 2015 &nbsp;·&nbsp; <strong>TMAP</strong> · Capgemini, 2007 &nbsp;·&nbsp; <strong>ITIL Foundation</strong> · 2005 &nbsp;·&nbsp; <a href="https://www.scrum.org/certification-list">Te verifiëren bij Scrum.org <span aria-hidden="true">↗</span></a></p>
       </div>
     </section>
 
-    <section class="next-section wrap section" id="richting" aria-labelledby="next-title">
-      <div class="section-label"><span>04 / Richting</span><p>Waarom AI-adoptie een logische volgende stap is.</p></div>
-      <div class="section-body">
-        <h2 id="next-title">Van teams begeleiden<br><span class="muted-heading">naar AI-adoptie.</span></h2>
-        <div class="next-columns">
-          <div>
-            <p class="large-copy">AI verandert niet als eerste de techniek, maar het werk van mensen. Precies daar ligt mijn ervaring.</p>
-            <p>Ik weet hoe je een nieuwe werkwijze introduceert bij mensen die het druk hebben en er niet om gevraagd hebben. Wat je moet uitleggen, waar mensen afhaken en waarom klein beginnen bijna altijd beter werkt dan een brede uitrol. Als lid van de ondernemingsraad weet ik bovendien hoe belangrijk transparantie en draagvlak zijn wanneer technologie het werk van collega's raakt.</p>
-          </div>
-          <div>
-            <p>Buiten mijn werk gebruik ik generatieve AI dagelijks en bouw ik er zelf mee. Ik draai een eigen server met eigen tools, programmeer daar met AI-assistenten, onderhoud machineleesbare kennisbanken en experimenteer met lokale modellen en lokale spraaksynthese. In een vroeg stadium produceerde ik in mijn eigen geluidsstudio professionele Nederlandse stemmen voor een AI-stemplatform, inclusief de hulpmiddelen om ze natuurlijk te laten klinken.</p>
-            <p>Op mijn werk gebruik ik Copilot binnen de kaders die daar gelden. Juist dat verschil is bruikbaar: ik weet wat er technisch kan, ik begrijp waarom een verzekeraar niet alles openzet, en ik weet hoe je mensen binnen die kaders toch iets in handen geeft waar ze echt wat aan hebben.</p>
-            <p>Met PSM AI Essentials heb ik die praktijk aangevuld met een gestructureerde basis. Ik ben bekend met ADKAR als adoptiemethodiek, zonder daarin getraind te zijn, en werk in de praktijk met Agile en Scrum.</p>
-          </div>
+    <section class="section career" id="loopbaan" aria-labelledby="loopbaan-title">
+      <div class="wrap career-grid">
+        <div class="section-head sticky" data-reveal>
+          <p class="kicker">07 · Loopbaan</p>
+          <h2 id="loopbaan-title">Een brede IT-basis, <span class="hl">steeds dichter bij de mensen.</span></h2>
+          <button class="btn btn-line print-btn" type="button" data-print>Print of bewaar als PDF</button>
         </div>
-      </div>
-    </section>
-
-    <section class="experience-section wrap section" id="ervaring" aria-labelledby="experience-title">
-      <div class="section-label"><span>05 / Loopbaan</span><p>Een brede IT-basis, steeds dichter bij de mensen.</p></div>
-      <div class="section-body">
-        <div class="experience-heading">
-          <h2 id="experience-title">Loopbaan.</h2>
-          <button class="text-link print-button" type="button" onclick="window.print()">Print of bewaar als PDF <span aria-hidden="true">→</span></button>
-        </div>
-        <ol class="timeline">
-          <li><span class="years">2019 <span>→ heden</span></span><div><h3>Klaverblad Verzekeringen</h3><p class="role">Scrum Master</p><p>Vijf softwareontwikkelteams opgezet en begeleid, waaronder team AOV Claims en team Data. Verbetering van de Agile werkwijze en assetmanagement voor Jira. Lid van de ondernemingsraad sinds 2026.</p></div><span class="current-label">Nu</span></li>
-          <li><span class="years">2018 <span>→ 2019</span></span><div><h3>Q-Delft / Netcompany</h3><p class="role">Scrum Master</p><p>Koninklijke Onderscheidingen en lintjes.nl. Projectbegeleiding en herintroductie van Agile werken.</p></div></li>
-          <li><span class="years">2017 <span>→ 2018</span></span><div><h3>H. Broerse Consultancy</h3><p class="role">Eigen onderneming · Scrum Master</p><p>Onder meer voor Ahold Delhaize, bij de vervanging van de Albert Heijn-winkelapplicaties door OutSystems-applicaties.</p></div></li>
-          <li><span class="years">2006 <span>→ 2018</span></span><div><h3>Albert Heijn / Ahold Delhaize <span class="entry-tag">Klantperiode</span></h3><p class="role">Testcoördinator → Informatieanalist → Product Owner → Scrum Master</p><p>Winkel-IT, testprocessen met een offshore team, introductie van Scrum en innovatiepilots. Opdrachten uitgevoerd via Capgemini, via Atos en vanaf 2017 als zelfstandige. Deze klantperiode overlapt daarom met de regel hierboven.</p></div></li>
-          <li><span class="years">2001 <span>→ 2006</span></span><div><h3>Hogeschool van Amsterdam</h3><p class="role">Applicatiebeheer en support</p><p>Van frontoffice en helpdesk naar applicatiebeheer, probleemanalyse en projecten.</p></div></li>
-          <li><span class="years">1998 <span>→ 2001</span></span><div><h3>Helpdesk- en supportfuncties</h3><p class="role">Diverse opdrachtgevers</p><p>Onder meer Sykes voor Gateway Computers, Leaf en Red Band Venco, en een desktop-rollout bij Triodos Bank.</p></div></li>
-        </ol>
-        <div class="education">
-          <p class="eyebrow">Opleiding</p>
-          <div><h3>Bedrijfskundige Informatica</h3><p>Hogeschool van Amsterdam · HEAO</p></div>
+        <div class="stem-wrap">
+          <div class="stem-line" aria-hidden="true"><span data-stem></span></div>
+          <ol class="timeline">
+            <li data-reveal class="current"><span class="yrs">2019 – heden</span><h3>Klaverblad Verzekeringen</h3><p class="role">Scrum Master</p><p>Vijf softwareontwikkelteams opgezet en begeleid, waaronder team AOV Claims en team Data. Verbetering van de Agile werkwijze en assetmanagement voor Jira. Lid van de ondernemingsraad sinds 2026.</p></li>
+            <li data-reveal><span class="yrs">2018 – 2019</span><h3>Q-Delft / Netcompany</h3><p class="role">Scrum Master</p><p>Koninklijke Onderscheidingen en lintjes.nl. Projectbegeleiding en herintroductie van Agile werken.</p></li>
+            <li data-reveal><span class="yrs">2017 – 2018</span><h3>H. Broerse Consultancy</h3><p class="role">Eigen onderneming · Scrum Master</p><p>Onder meer voor Ahold Delhaize, bij de vervanging van de Albert Heijn-winkelapplicaties door OutSystems-applicaties.</p></li>
+            <li data-reveal><span class="yrs">2006 – 2018</span><h3>Albert Heijn / Ahold Delhaize <span class="tag">Klantperiode</span></h3><p class="role">Testcoördinator → Informatieanalist → Product Owner → Scrum Master</p><p>Winkel-IT, testprocessen met een offshore team, introductie van Scrum en innovatiepilots. Opdrachten uitgevoerd via Capgemini, via Atos en vanaf 2017 als zelfstandige. Deze klantperiode overlapt daarom met de regel hierboven.</p></li>
+            <li data-reveal><span class="yrs">2001 – 2006</span><h3>Hogeschool van Amsterdam</h3><p class="role">Applicatiebeheer en support</p><p>Van frontoffice en helpdesk naar applicatiebeheer, probleemanalyse en projecten.</p></li>
+            <li data-reveal><span class="yrs">1998 – 2001</span><h3>Helpdesk- en supportfuncties</h3><p class="role">Diverse opdrachtgevers</p><p>Onder meer Sykes voor Gateway Computers, Leaf en Red Band Venco, en een desktop-rollout bij Triodos Bank.</p></li>
+          </ol>
+          <div class="extras" data-reveal>
+            <div><h3>Opleiding</h3><p>Bedrijfskundige Informatica<br>Hogeschool van Amsterdam · HEAO</p></div>
+            <div><h3>Talen</h3><p>Nederlands en Engels</p></div>
+          </div>
         </div>
       </div>
     </section>
   </main>
 
-  <footer class="contact-section" id="contact">
-    <div class="wrap">
-      <div class="contact-main">
-        <div><p class="eyebrow">06 / Contact</p><h2>Neem gerust<br><span>contact op.</span></h2></div>
-        <div class="contact-links">
-          <a href="mailto:hansb1980@gmail.com">hansb1980@gmail.com <span aria-hidden="true">↗</span></a>
-          <a href="https://www.linkedin.com/in/hans-broerse-25328b5/">LinkedIn <span aria-hidden="true">↗</span></a>
-          <p>Hans Broerse · Zoetermeer · Nederlands en Engels</p>
-        </div>
+  <footer class="contact" id="contact">
+    <div class="wrap contact-grid">
+      <div class="kader contact-kader" data-reveal>
+        <p class="kicker">08 · Contact</p>
+        <h2>Wordt vervolgd.</h2>
+        <p class="contact-dek">De volgende stap zet ik graag samen. Neem gerust contact op.</p>
       </div>
-      <div class="footer-bottom">
-        <span>Hans Broerse · Curriculum vitae · bijgewerkt september 2026</span>
-        <a href="#top">Terug naar boven <span aria-hidden="true">↑</span></a>
+      <div class="contact-links" data-reveal>
+        <a class="btn" href="mailto:hansb1980@gmail.com">hansb1980@gmail.com <span aria-hidden="true">↗</span></a>
+        <a class="btn btn-line" href="https://www.linkedin.com/in/hans-broerse-25328b5/">LinkedIn <span aria-hidden="true">↗</span></a>
       </div>
+    </div>
+    <div class="wrap foot">
+      <span>Hans Broerse · Zoetermeer · Curriculum vitae, september 2026</span>
+      <a href="#top">Terug naar boven <span aria-hidden="true">↑</span></a>
     </div>
   </footer>
 </body>
