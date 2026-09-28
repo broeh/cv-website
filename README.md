@@ -49,12 +49,13 @@ Preview locally with `python -m http.server 8765 --bind 127.0.0.1`. Check deskto
 
 A Chapter Lead version of the whole site (variant D) was live on 27 and 28 September 2026 and is parked under the tag `site-v2-chapter-lead`. To put it back live, run `git checkout site-v2-chapter-lead -- index.html styles.css main.js sitemap.xml assets/`, then commit and push.
 
-`varianten/` holds four alternative designs aimed at the internal Chapter Lead vacancy at Klaverblad, built in September 2026 to choose from. The live `index.html` is unchanged. Open `varianten/` on the local preview server for a side-by-side chooser.
+`varianten/` holds alternative designs built in September 2026 to choose from. A to D are aimed at the internal Chapter Lead vacancy at Klaverblad. E is aimed at the AI Adoptie Consultant vacancy. The live `index.html` is unchanged. Open `varianten/` on the local preview server for a side-by-side chooser.
 
 - `varianten/a-klaver/` - Klaverblad house style: deep green, Anton and Lato, four-leaf clover motif
 - `varianten/b-hoofdstukken/` - editorial magazine: the career told in chapters, Fraunces, burgundy and green
 - `varianten/c-chapter/` - dark and technical: interactive team/discipline matrix, Geist
 - `varianten/d-klaver-rustig/` - merge of A and B: A's green layout and clover, B's Fraunces typography
+- `varianten/e-ai-adoptie/` - AI Adoptie Consultant version of D, strictly in the Klaverblad brand manual style: Lato only, Klaverbladgroen and Klaverbladrood, the 85% green frame and a red call-to-action ball
 - `varianten/fonts/` - self-hosted fonts with their OFL licenses
 - `varianten/assets/` - cut-out portraits and chooser previews
 

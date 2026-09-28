@@ -110,3 +110,18 @@ Variant D (`varianten/d-klaver-rustig/`) gebruikt dezelfde teksten als A, met tw
 ## Live sinds 27 september 2026
 
 De hoofdpagina gebruikt de teksten van variant D, met de bronnen zoals hierboven beschreven. De nieuwe `assets/og-image.png` is lokaal gegenereerd uit `assets/portret-t.webp`, met de eigen lettertypen en kleuren van de site. Fraunces staat in `assets/` met `assets/fraunces-OFL.txt`.
+
+## Variant E, AI-adoptie, 28 september 2026
+
+`varianten/e-ai-adoptie/` gebruikt de teksten van de huidige live site, die over AI-adoptie gaat. Het ontwerp volgt `~/Projects/Sollicitatie/klaverblad_brandstyle.md`, een samenvatting van de Klaverblad Brand manual v08-2022. Wat er nieuw of anders geformuleerd is, en waar het vandaan komt:
+
+- **De vier bladen:** begrijpen, vertrouwen, toepassen en verankeren. Ze beschrijven een aanpak, geen gerealiseerde resultaten. De eerste drie volgen de vacaturetekst: medewerkers helpen om AI te begrijpen, te vertrouwen en toe te passen. "Verankeren" volgt de vacature-eisen over experimenten opschalen, een netwerk van AI-ambassadeurs en gebruik monitoren.
+- **"Van vraag naar bewijs":** koppelt elke eis uit de vacature aan feiten die al op de site of in variant D staan.
+  - Copilot staat als eigen gebruik binnen de kaders, met "Een uitrol heb ik nog niet geleid".
+  - ADKAR staat als "bekend mee, zonder daarin getraind te zijn".
+  - Beide punten hebben een eigen icoon voor "deels of in ontwikkeling". Dit sluit aan bij de redactionele lijn hierboven: geen claims over eerdere AI-adoptieprogramma's, Copilot-uitrollen of ADKAR-expertise.
+- **Het citaat "Klein beginnen werkt bijna altijd beter dan een brede uitrol."** Dit is een ingekorte versie van Hans' eigen zin op de live site.
+- **De gestippelde balk "Volgende stap: AI-adoptie"** in de staafgrafiek is een ambitie en geen rol die Hans heeft vervuld.
+- **Het Klaverblad-logo staat bewust niet op de pagina.** Er is alleen een eigen klavermotief gebruikt.
+
+`varianten/assets/preview-e-ai-adoptie.webp` is een screenshot van de variant voor de keuzepagina.

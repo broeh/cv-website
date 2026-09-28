@@ -1,5 +1,24 @@
 # Development Log
 
+## 2026-09-28 (variant E: AI-adoptie in Klaverblad-huisstijl)
+
+- Hans wil de AI Adoptie Consultant-site net zo spectaculair als de Chapter Lead-versie, maar vond Anton te zwaar en Fraunces ook niet mooi. Nieuwe variant `varianten/e-ai-adoptie/`, met de opbouw van D en de stijl uit de Klaverblad-brandmanual (`~/Projects/Sollicitatie/klaverblad_brandstyle.md`).
+- Huisstijl: alleen Lato Regular, met Lato Bold voor nadruk. Koppen in Klaverbladgroen #32912f, subkoppen, kickers en knoppen in Klaverbladrood #8c0f29, zwarte bodytekst en veel wit. Het groene kader op 85% dekking met afgeronde hoeken loopt aan één kant af, zoals in de manual. Er is een rode bol met witte letters als ondergeschikte call to action. Grachtengroen is niet gebruikt, omdat dat alleen in het logo mag.
+- Voor kleine groene tekst is een iets donkerder groen #287a25 gebruikt, omdat #32912f op wit maar 4,0:1 contrast haalt. Grote koppen gebruiken het echte Klaverbladgroen.
+- Het officiële Klaverblad-logo staat bewust niet op de site. Een persoonlijke, openbare pagina met het logo kan lijken op een officiële Klaverblad-pagina.
+- Inhoud: de teksten van de huidige AI-adoptiesite, in D's elementen gegoten:
+  - de staafgrafiek met een gestippelde zevende balk "Volgende stap: AI-adoptie";
+  - de oplichtende zin "AI verandert niet als eerste de techniek...";
+  - vier bladen: begrijpen, vertrouwen, toepassen en verankeren;
+  - "Van vraag naar bewijs" per eis uit de vacature, met een eigen icoon voor punten die deels gedaan of in ontwikkeling zijn: Copilot en ADKAR;
+  - vier werkkaarten;
+  - een blok "Thuis / Op het werk" over AI;
+  - de certificeringen met PSM AI Essentials voorop;
+  - de loopbaan en "Wordt vervolgd."
+- Keuzepagina bijgewerkt met E bovenaan.
+- Verificatie: Playwright/Chromium op 320, 390, 768, 1024, 1280 en 1440 pixels. Er is geen horizontale overflow meer; bij 320 was er eerst overflow door "Stakeholdermanagement", nu opgelost. Ook: geen console- of laadfouten, een H1, alle afbeeldingen geladen, en tekst zichtbaar met `prefers-reduced-motion`. Printen geeft ongeveer 10 A4-pagina's.
+- De live site is niet gewijzigd.
+
 ## 2026-09-28 (terug naar de originele site, Chapter Lead-versie geparkeerd)
 
 - Op verzoek van Hans staat de originele site weer live. `index.html`, `styles.css`, `assets/og-image.png` en `sitemap.xml` zijn teruggezet naar de tag `site-v1-ai-adoptie` en zijn daar weer byte voor byte gelijk aan. `main.js`, `assets/portret-t.webp` en Fraunces in `assets/` zijn verwijderd, omdat de originele site ze niet gebruikt.
